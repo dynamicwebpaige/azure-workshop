@@ -3,6 +3,6 @@ Collection of presentations related to [Azure ML Studio](https://studio.azureml.
 
 * **May 27**: Half-day workshop at the Houston Microsoft campus.
 * **June 1**: 2-hour course for MIS students at University of Houston
-* **TBD**: Build Your Own ML-Enabled Nest with Particle Photon and Azure ML Studio
+* **TBD**: 3-hour workshop on building your own Nest using Particle Photon and Azure ML Studio
 
 Feel free to contact [Paige Bailey](mailto:dynamicwebpaige@gmail.com) if you have any questions!
