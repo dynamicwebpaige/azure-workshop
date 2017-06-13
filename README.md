@@ -4,7 +4,7 @@ Collection of presentations related to [Azure ML Studio](https://studio.azureml.
 ### Workshops and Presentations
 * **May 27**: Half-day workshop at the Houston Microsoft campus.
 * **June 1**: 2-hour course for MIS students at University of Houston
-* **TBD**: 3-hour workshop on building your own Nest using Particle Photon and Azure ML Studio
+* **July 29**: 3-hour workshop using Spark Core, Azure ML Studio, and DHT11 sensors for time series anomaly detection
 
 ### Additional Links
 * [Predictive Analytics for Smarter Houston City Services](https://devpost.com/software/predictive-analytics-for-houston-city-services) 
