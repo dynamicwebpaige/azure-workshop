@@ -11,4 +11,4 @@ Collection of presentations related to [Azure ML Studio](https://studio.azureml.
 * [Azure ML Studio](https://studio.azureml.net/)
 * [Data 4 Democracy: Women in Data Science Round Table](https://www.youtube.com/watch?v=AXyj9Bg9R88)
 
-Feel free to contact [Paige Bailey](mailto:dynamicwebpaige@gmail.com) if you have any questions.
+Feel free to contact [Paige Bailey](mailto:dynamicwebpaige@gmail.com) if you have any questions, and stay tuned for updates!
