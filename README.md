@@ -10,7 +10,7 @@ Collection of presentations related to [Azure ML Studio](https://studio.azureml.
 * [Predictive Analytics for Smarter Houston City Services](https://devpost.com/software/predictive-analytics-for-houston-city-services) 
 * [Azure ML Studio](https://studio.azureml.net/)
 * [Data 4 Democracy: Women in Data Science Round Table](https://www.youtube.com/watch?v=AXyj9Bg9R88)
-* [Registration](https://www.eventbrite.com/preview?eid=35884305925) for IoT Anomaly Detection Workshop.
-* [Registration](https://www.eventbrite.com/myevent?eid=34577913470) for Getting Started with ML Studio (_archive_)
+* [Registration](https://www.eventbrite.com/e/iot-anomaly-detection-workshop-with-azure-ml-studio-particle-core-free-tickets-35884305925?aff=es2) for IoT Anomaly Detection Workshop.
+* [Registration](https://www.eventbrite.com/e/getting-started-with-azure-machine-learning-studio-tickets-34577913470#) for Getting Started with ML Studio (_archive_)
 
 Feel free to contact [Paige Bailey](mailto:dynamicwebpaige@gmail.com) if you have any questions, and stay tuned for updates!
