@@ -12,13 +12,23 @@ A collection of beloved textbooks, as nominated by the Twitter community on Sept
 
 * [Network Security: Private Communication in a Public World](https://www.amazon.com/Network-Security-Private-Communication-Public/dp/0130460192) by Kaufman, Perlman, and Speciner. 2002.
 
+* [The Little LISPer](https://www.amazon.com/Little-LISPer-Daniel-P-Friedman/dp/0262560380) by Friedman and Felleisen. 1987.
+
+* [La programmation applicative](https://www.amazon.com/programmation-applicative-Emmanuel-Saint-James/dp/2866013557) by Saint-James. 1993.
+
+* [Lisp](https://www.amazon.com/Lisp-Christian-Queinnec/dp/0470202262) by Queinnec. 1984.
+
+* [Elements of Functional Languages](https://www.amazon.com/Elements-Functional-Languages-Computer-Science/dp/0632017392) by Henson. 1988.
+
+* [Security Engineering: A Guide to Building Dependable Distributed Systems](https://www.amazon.com/Security-Engineering-Building-Dependable-Distributed/dp/0470068523) by Anderson. 2008.
+
 ### Mathematics
 
 * [Numerical Mathematics and Computing](https://www.amazon.com/Numerical-Mathematics-Computing-Ward-Cheney/dp/1133103715) by Cheney and Kincaid. 2012.
 
 * [Vector Calculus](https://www.amazon.com/Vector-Calculus-Jerrold-Marsden/dp/0716749920) by Marsden and Tromba. 2003.
 
-### Earth Sciences, Geography
+### Earth Sciences and Geography
 
 * [Manual of Remote Sensing, Vol. 1](https://www.amazon.com/Manual-remote-sensing-Robert-Colwell/dp/0937294411) by Colwell. 1983.
 
@@ -27,3 +37,12 @@ A collection of beloved textbooks, as nominated by the Twitter community on Sept
 * [The Theory of Industrial Organization](https://www.amazon.com/Theory-Industrial-Organization-MIT-Press/dp/0262200716) by Tirole. 1988.
 
 * [Dynamic Hedging: Managing Vanilla and Exotic Options](https://www.amazon.com/Dynamic-Hedging-Managing-Vanilla-Options/dp/0471152803) by Nassim Taleb. 1997.
+
+### History
+
+* [The Western Heritage Since 1300, AP Edition](https://www.amazon.com/Western-Heritage-Since-1300-AP/dp/0131732927) by Kagan, Ozmet, and Turner. 2006.
+
+### Music Theory
+
+* [Fundamentals of Musical Composition](https://www.amazon.com/Fundamentals-Musical-Composition-Arnold-Schoenberg/dp/0571196586) by Schoenberg and Strang. 1982.
+
