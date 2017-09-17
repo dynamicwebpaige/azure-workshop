@@ -56,6 +56,8 @@ A collection of beloved textbooks, as nominated by the Twitter community on Sept
 
 * [Manual of Remote Sensing, Vol. 1](https://www.amazon.com/Manual-remote-sensing-Robert-Colwell/dp/0937294411) by Colwell. 1983.
 
+* [Putnam's Geology](https://www.amazon.com/Putnams-Geology-Peter-W-Birkeland/dp/0195055179) by Birkeland and Larson. 1989.
+
 ### Economics and Finance
 
 * [The Theory of Industrial Organization](https://www.amazon.com/Theory-Industrial-Organization-MIT-Press/dp/0262200716) by Tirole. 1988.
