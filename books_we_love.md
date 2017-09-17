@@ -1,6 +1,9 @@
 # Books We Love
 
-A collection of beloved textbooks, as nominated by the Twitter community on September 16th, 2017. Ever-growing, parsed by subject, and in no order of preference or impact. Nominators indicated by *src*, and year refers to the edition in the linked example.
+A collection of beloved textbooks, [as nominated by the Twitter community on September 16th, 2017](https://twitter.com/DynamicWebPaige/status/909095421321998337). Ever-growing, parsed by subject, and in no order of preference or impact. Nominators indicated by *src*, and year refers to the edition in the linked example.
+
+Happy reading, folks. :)
+
 ### Computer Science
 
 * [Pattern Recognition and Machine Learning](https://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738) by Bishop. 2011.
@@ -12,6 +15,7 @@ A collection of beloved textbooks, as nominated by the Twitter community on Sept
 * [Programming in Haskell](https://www.amazon.com/Programming-Haskell-Graham-Hutton/dp/1316626229) by Hutton. 2016.
 
 * [Compilers: Principles, Techniques, and Tools](https://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811) by Aho, Sethi, and Ullman. 2006. 
+
 * [Realistic Ray Tracing](https://www.amazon.com/Realistic-Tracing-Second-Peter-Shirley/dp/1568814615) by Shiley and Morley. 2003.
 
 * [Data Reduction and Error Analysis for the Physical Sciences](https://www.amazon.com/Reduction-Error-Analysis-Physical-Sciences/dp/0072472278) by Bevington and Robinson. 2002.
@@ -44,6 +48,10 @@ A collection of beloved textbooks, as nominated by the Twitter community on Sept
 
 * [Digital Design of Nature: Computer-Generated Plants and Organics](https://www.amazon.com/Digital-Design-Nature-Generated-X-media-publishing/dp/3540405917) by Deussen and Lintermann. 2005.
 
+* [The Structure and Interpretation of Computer Programs](https://www.amazon.com/Structure-Interpretation-Computer-Programs-Engineering/dp/0262510871) by Abelson and Sussman. 1996.
+
+* [Creative Evolutionary Systems](https://www.amazon.com/Creative-Evolutionary-Kaufmann-Artificial-Intelligence/dp/1558606734) by Corne and Bentley. 2001.
+
 ### Electrical Engineering
 
 * [The Art of Electronics](https://www.amazon.com/Art-Electronics-Paul-Horowitz/dp/0521809266) by Horowitz and Hill. 2015.
@@ -60,6 +68,8 @@ A collection of beloved textbooks, as nominated by the Twitter community on Sept
 * [Conceptual Mathematics: A First Introduction to Categories](http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521719162) by Lawvere and Schanuel. 2009.
 
 * [Visual Complex Analysis](https://www.amazon.com/Visual-Complex-Analysis-Tristan-Needham/dp/0198534469) by Needham. 1999.
+
+* [Div, Grad, Curl, and All That: An Informal Text on Vector Calculus](https://www.amazon.com/Div-Grad-Curl-All-That/dp/0393925161) by Schey. 2004.
 
 ### Chemistry
 
@@ -94,3 +104,8 @@ A collection of beloved textbooks, as nominated by the Twitter community on Sept
 ### Religious Studies
 
 * [The Spiritual Exercises of Saint Ignatius of Loyola](https://www.amazon.com/Spiritual-Exercises-St-Ignatius-Autograph/dp/0829400656) by Ignatius of Loyola. 1968.
+
+### Philosophy
+
+* [Zen and the Art of Motorcycle Maintenance](https://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0060589469) by Pirsig. 2006.
+
