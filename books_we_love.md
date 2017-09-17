@@ -1,11 +1,17 @@
 # Books We Love
 
 A collection of beloved textbooks, as nominated by the Twitter community on September 16th, 2017. Ever-growing, parsed by subject, and in no order of preference or impact. Nominators indicated by *src*, and year refers to the edition in the linked example.
-
 ### Computer Science
 
-* [Compilers: Principles, Techniques, and Tools](https://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811) by Aho, Sethi, and Ullman. 2006. 
+* [Pattern Recognition and Machine Learning](https://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738) by Bishop. 2011.
 
+* Smola's [Scalable Machine Learning Lectures](http://alex.smola.org/teaching/berkeley2012/)
+
+* [Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp](https://www.amazon.com/Paradigms-Artificial-Intelligence-Programming-Studies/dp/1558601910) by Norvig. 1991.
+
+* [Programming in Haskell](https://www.amazon.com/Programming-Haskell-Graham-Hutton/dp/1316626229) by Hutton. 2016.
+
+* [Compilers: Principles, Techniques, and Tools](https://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811) by Aho, Sethi, and Ullman. 2006. 
 * [Realistic Ray Tracing](https://www.amazon.com/Realistic-Tracing-Second-Peter-Shirley/dp/1568814615) by Shiley and Morley. 2003.
 
 * [Data Reduction and Error Analysis for the Physical Sciences](https://www.amazon.com/Reduction-Error-Analysis-Physical-Sciences/dp/0072472278) by Bevington and Robinson. 2002.
@@ -46,11 +52,20 @@ A collection of beloved textbooks, as nominated by the Twitter community on Sept
 
 * [Numerical Mathematics and Computing](https://www.amazon.com/Numerical-Mathematics-Computing-Ward-Cheney/dp/1133103715) by Cheney and Kincaid. 2012.
 
+
+* [Differential Equations with Applications and Historical Notes](https://www.amazon.com/Differential-Equations-Applications-Historical-Mathematics/dp/1498702597) by Simmons. 2016.
+
 * [Vector Calculus](https://www.amazon.com/Vector-Calculus-Jerrold-Marsden/dp/0716749920) by Marsden and Tromba. 2003.
 
 * [Conceptual Mathematics: A First Introduction to Categories](http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521719162) by Lawvere and Schanuel. 2009.
 
 * [Visual Complex Analysis](https://www.amazon.com/Visual-Complex-Analysis-Tristan-Needham/dp/0198534469) by Needham. 1999.
+
+### Chemistry
+
+* [Organic Synthesis: The Disconnection Approach](https://www.amazon.com/Organic-Synthesis-Disconnection-Stuart-Warren/dp/0470712368) by Warren and Wyatt. 2008.
+
+* [The Art of Writing Reasonable Organic Reaction Mechanisms](https://www.amazon.com/Writing-Reasonable-Organic-Reaction-Mechanisms/dp/0387954686) by Grossman. 2007.
 
 ### Earth Sciences and Geography
 
@@ -71,6 +86,10 @@ A collection of beloved textbooks, as nominated by the Twitter community on Sept
 ### Music Theory
 
 * [Fundamentals of Musical Composition](https://www.amazon.com/Fundamentals-Musical-Composition-Arnold-Schoenberg/dp/0571196586) by Schoenberg and Strang. 1982.
+
+### Art History and Studies
+
+* [Ways of Seeing](https://www.amazon.com/Ways-Seeing-Based-Television-Penguin/dp/0140135154) by Berger. 1990.
 
 ### Religious Studies
 
