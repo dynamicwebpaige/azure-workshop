@@ -1,6 +1,6 @@
 # Books We Love
 
-A collection of beloved textbooks, as nominated by the Twitter community on September 16th, 2017. Ever-growing, parsed by subject, and in no order of preference or impact. Nominators indicated by *src*.
+A collection of beloved textbooks, as nominated by the Twitter community on September 16th, 2017. Ever-growing, parsed by subject, and in no order of preference or impact. Nominators indicated by *src*, and year refers to the edition in the linked example.
 
 ### Computer Science
 
@@ -12,11 +12,18 @@ A collection of beloved textbooks, as nominated by the Twitter community on Sept
 
 * [Network Security: Private Communication in a Public World](https://www.amazon.com/Network-Security-Private-Communication-Public/dp/0130460192) by Kaufman, Perlman, and Speciner. 2002.
 
+### Mathematics
+
+* [Numerical Mathematics and Computing](https://www.amazon.com/Numerical-Mathematics-Computing-Ward-Cheney/dp/1133103715) by Cheney and Kincaid. 2012.
+
+* [Vector Calculus](https://www.amazon.com/Vector-Calculus-Jerrold-Marsden/dp/0716749920) by Marsden and Tromba. 2003.
+
 ### Earth Sciences, Geography
 
-* [Manual of Remote Sensing, Vol. 1](https://www.amazon.com/Manual-remote-sensing-Robert-Colwell/dp/0937294411/ref=sr_1_1?s=books&ie=UTF8&qid=1505613233&sr=1-1&keywords=manual+of+remote+sensing) by Colwell. 1983.
+* [Manual of Remote Sensing, Vol. 1](https://www.amazon.com/Manual-remote-sensing-Robert-Colwell/dp/0937294411) by Colwell. 1983.
 
+### Economics and Finance
 
+* [The Theory of Industrial Organization](https://www.amazon.com/Theory-Industrial-Organization-MIT-Press/dp/0262200716) by Tirole. 1988.
 
-
-
+* [Dynamic Hedging: Managing Vanilla and Exotic Options](https://www.amazon.com/Dynamic-Hedging-Managing-Vanilla-Options/dp/0471152803) by Nassim Taleb. 1997.
