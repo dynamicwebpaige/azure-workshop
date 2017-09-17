@@ -6,7 +6,11 @@ Happy reading, folks. :)
 
 ### Computer Science
 
+* [How to Solve It: Modern Heuristics](https://www.amazon.com/How-Solve-Heuristics-Zbigniew-Michalewicz/dp/3540224947) by Michalewicz and Fogel. 2004.
+
 * [Pattern Recognition and Machine Learning](https://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738) by Bishop. 2011.
+
+* [Artificial Intelligence: A Modern Approach](https://www.amazon.com/Artificial-Intelligence-Approach-Stuart-Russell/dp/9332543518) by Norvig and Russell. 2015.
 
 * Smola's [Scalable Machine Learning Lectures](http://alex.smola.org/teaching/berkeley2012/)
 
@@ -52,14 +56,33 @@ Happy reading, folks. :)
 
 * [Creative Evolutionary Systems](https://www.amazon.com/Creative-Evolutionary-Kaufmann-Artificial-Intelligence/dp/1558606734) by Corne and Bentley. 2001.
 
+* [The Art of Doing Science and Engineering: Learning to Learn](https://www.amazon.com/Art-Doing-Science-Engineering-Learning/dp/9056995014) by Hamming. 1997.
+
+* [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844) by Cormen, Leiserson, Rivest, and Stein. 2009.
+
+* [Godel, Escher, Bach: An Eternal Golden Braid](https://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567) by Hofstadter. 1999.
+
+* [Computer Graphics: Principles and Practice](https://www.amazon.com/Computer-Graphics-Principles-Practice-3rd/dp/0321399528) by Hughes, van Dam, McGuire, Sklar, Foley, Feiner, and Akeley. 2013.
+
+* [The Art of Computer Programming (Vol. 1 - 4)](https://www.amazon.com/Computer-Programming-Volumes-1-4A-Boxed/dp/0321751043) by Knuth. 2011.
+
+* [Introduction to Modern Cryptography](https://www.amazon.com/Introduction-Cryptography-Chapman-Network-Security/dp/1466570261) by Katz and Lindell. 2014.
+
+* [Haskell Programming from First Principles](http://haskellbook.com/) by Allen and Moronuki. 
+
+* [Type Theory and Functional Programming](https://www.amazon.com/Functional-Programming-International-Computer-Science/dp/0201416670) by Thompson. 1991.
+
 ### Electrical Engineering
 
 * [The Art of Electronics](https://www.amazon.com/Art-Electronics-Paul-Horowitz/dp/0521809266) by Horowitz and Hill. 2015.
 
 ### Mathematics
 
-* [Numerical Mathematics and Computing](https://www.amazon.com/Numerical-Mathematics-Computing-Ward-Cheney/dp/1133103715) by Cheney and Kincaid. 2012.
+* [Introductory Calculus for Infants](https://www.amazon.com/Introductory-Calculus-Infants-Omi-Inouye/dp/0987823914) by Inouye. 2011.
 
+* [Complex Analysis](https://www.amazon.com/Complex-Analysis-Lars-Ahlfors/dp/0070006571) by Ahlfors. 1979.
+
+* [Numerical Mathematics and Computing](https://www.amazon.com/Numerical-Mathematics-Computing-Ward-Cheney/dp/1133103715) by Cheney and Kincaid. 2012.
 
 * [Differential Equations with Applications and Historical Notes](https://www.amazon.com/Differential-Equations-Applications-Historical-Mathematics/dp/1498702597) by Simmons. 2016.
 
@@ -71,17 +94,51 @@ Happy reading, folks. :)
 
 * [Div, Grad, Curl, and All That: An Informal Text on Vector Calculus](https://www.amazon.com/Div-Grad-Curl-All-That/dp/0393925161) by Schey. 2004.
 
+* [My Best Mathematical and Logic Puzzles](https://www.amazon.com/Mathematical-Logic-Puzzles-Dover-Recreational/dp/0486281523) by Gardner. 1994.
+
+* [Concrete Mathematics](https://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025) by Graham, Knuth, and Patashnik. 1994.
+
+* [Introduction to Linear Algebra](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/) by Strang. 2016.
+
+* [Introduction to Topology](https://www.amazon.com/Introduction-Topology-Third-Dover-Mathematics/dp/0486663523) by Mendelson. 1990.
+
+* [Introduction to Graph Theory](https://www.amazon.com/Introduction-Graph-Theory-Dover-Mathematics/dp/0486678709) by Trudeau. 1994.
+
+* [Precaculus Mathematics in a Nutshell: Geometry, Algebra, Trigonometry](https://www.indiebound.org/book/9781592441303) by Simmons. 2007.
+
+### Physics
+
+* [The Feynman Lectures on Physics](http://feynmanlectures.caltech.edu/) by the man himself. 
+
+* [Quantum Physics for Babies](https://www.amazon.com/Quantum-Physics-Babies-Baby-University/dp/1492656224) by Ferrie. 2017.
+
+* [States of Matter](https://www.amazon.com/States-Matter-Dover-Books-Physics/dp/048664927X) by Goodstein. 2014.
+
+* [Picturing Quantum Processes: A First Course in Quantum Theory and Diagrammatic Reasoning](https://www.amazon.com/Picturing-Quantum-Processes-Diagrammatic-Reasoning/dp/110710422X) by Coecke and Kissinger. 2017.
+
+* [Fundamentals of Physics](https://www.amazon.com/Fundamentals-Physics-Extended-David-Halliday/dp/1118230728) by Halliday, Resnick, and Walker. 2013.
+
 ### Chemistry
 
 * [Organic Synthesis: The Disconnection Approach](https://www.amazon.com/Organic-Synthesis-Disconnection-Stuart-Warren/dp/0470712368) by Warren and Wyatt. 2008.
 
 * [The Art of Writing Reasonable Organic Reaction Mechanisms](https://www.amazon.com/Writing-Reasonable-Organic-Reaction-Mechanisms/dp/0387954686) by Grossman. 2007.
 
+### Biology and Genetics
+
+* [The Origins of Genome Architecture](https://www.amazon.com/Origins-Genome-Architecture-Michael-Lynch/dp/0878934847) by Lynch. 2007.
+
+* [Molecular Biology of the Cell](https://www.amazon.com/Molecular-Biology-Cell-Bruce-Alberts/dp/0815344325) by Johnson. 2014.
+
 ### Earth Sciences and Geography
 
 * [Manual of Remote Sensing, Vol. 1](https://www.amazon.com/Manual-remote-sensing-Robert-Colwell/dp/0937294411) by Colwell. 1983.
 
 * [Putnam's Geology](https://www.amazon.com/Putnams-Geology-Peter-W-Birkeland/dp/0195055179) by Birkeland and Larson. 1989.
+
+* [Geodynamics](https://www.amazon.com/Geodynamics-Donald-Turcotte/dp/0521186234) by Turcotte and Schubert. 2014.
+
+* [Introduction to Numerical Geodynamic Modelling](https://www.amazon.com/Introduction-Numerical-Geodynamic-Modelling-Taras-ebook/dp/B004EHZXN4) by Gerya. 2009.
 
 ### Economics and Finance
 
@@ -93,6 +150,8 @@ Happy reading, folks. :)
 
 * [The Western Heritage Since 1300, AP Edition](https://www.amazon.com/Western-Heritage-Since-1300-AP/dp/0131732927) by Kagan, Ozmet, and Turner. 2006.
 
+* [Rum Punch Revolution: Taverngoing and Public Life in Eighteenth-Century Philadelphia](https://www.amazon.com/Rum-Punch-Revolution-Eighteenth-Century-Philadelphia/dp/0812216644) by Thompson. 1998.
+
 ### Music Theory
 
 * [Fundamentals of Musical Composition](https://www.amazon.com/Fundamentals-Musical-Composition-Arnold-Schoenberg/dp/0571196586) by Schoenberg and Strang. 1982.
@@ -100,6 +159,8 @@ Happy reading, folks. :)
 ### Art History and Studies
 
 * [Ways of Seeing](https://www.amazon.com/Ways-Seeing-Based-Television-Penguin/dp/0140135154) by Berger. 1990.
+
+* [The Book of Shaders](https://thebookofshaders.com/) by Vivo and Lowe.
 
 ### Religious Studies
 
@@ -109,3 +170,10 @@ Happy reading, folks. :)
 
 * [Zen and the Art of Motorcycle Maintenance](https://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0060589469) by Pirsig. 2006.
 
+### Design
+
+* [The Design of Everyday Things](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654) by Norman. 2013.
+
+### Other
+
+* [Hypnosis: The Application of Ideomotor Techniques](https://www.amazon.com/Hypnosis-Application-David-M-D-Cheek/dp/0205155952) by Cheek. 1993.
