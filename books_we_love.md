@@ -24,6 +24,10 @@ A collection of beloved textbooks, as nominated by the Twitter community on Sept
 
 * [The Linux Programming Interface](https://www.amazon.com/Linux-Programming-Interface-System-Handbook/dp/1593272200) by Kerrisk. 2010.
 
+* [The Pragmatic Programmer: From Journeyman to Master](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X) by Hunt and Thomas. 1999.
+
+* [Advanced Programming in the UNIX Environment](https://www.amazon.com/Advanced-Programming-UNIX-Environment-3rd/dp/0321637739) by Stevens and Rago. 2013.
+
 ### Electrical Engineering
 
 * [The Art of Electronics](https://www.amazon.com/Art-Electronics-Paul-Horowitz/dp/0521809266) by Horowitz and Hill. 2015.
@@ -54,3 +58,6 @@ A collection of beloved textbooks, as nominated by the Twitter community on Sept
 
 * [Fundamentals of Musical Composition](https://www.amazon.com/Fundamentals-Musical-Composition-Arnold-Schoenberg/dp/0571196586) by Schoenberg and Strang. 1982.
 
+### Religious Studies
+
+* [The Spiritual Exercises of Saint Ignatius of Loyola](https://www.amazon.com/Spiritual-Exercises-St-Ignatius-Autograph/dp/0829400656) by Ignatius of Loyola. 1968.
