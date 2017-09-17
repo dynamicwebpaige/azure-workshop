@@ -22,11 +22,19 @@ A collection of beloved textbooks, as nominated by the Twitter community on Sept
 
 * [Security Engineering: A Guide to Building Dependable Distributed Systems](https://www.amazon.com/Security-Engineering-Building-Dependable-Distributed/dp/0470068523) by Anderson. 2008.
 
+* [The Linux Programming Interface](https://www.amazon.com/Linux-Programming-Interface-System-Handbook/dp/1593272200) by Kerrisk. 2010.
+
+### Electrical Engineering
+
+* [The Art of Electronics](https://www.amazon.com/Art-Electronics-Paul-Horowitz/dp/0521809266) by Horowitz and Hill. 2015.
+
 ### Mathematics
 
 * [Numerical Mathematics and Computing](https://www.amazon.com/Numerical-Mathematics-Computing-Ward-Cheney/dp/1133103715) by Cheney and Kincaid. 2012.
 
 * [Vector Calculus](https://www.amazon.com/Vector-Calculus-Jerrold-Marsden/dp/0716749920) by Marsden and Tromba. 2003.
+
+* [Conceptual Mathematics: A First Introduction to Categories](http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521719162) by Lawvere and Schanuel. 2009.
 
 ### Earth Sciences and Geography
 
