@@ -28,6 +28,16 @@ A collection of beloved textbooks, as nominated by the Twitter community on Sept
 
 * [Advanced Programming in the UNIX Environment](https://www.amazon.com/Advanced-Programming-UNIX-Environment-3rd/dp/0321637739) by Stevens and Rago. 2013.
 
+* [The Algorithmic Beauty of Plants](https://www.amazon.com/Algorithmic-Beauty-Plants-Virtual-Laboratory/dp/0387972978) by Prusinkiewicz and Lindenmayer. 1991.
+
+* [Two Scoops of Django 1.11: Best Practices for the Django Web Framework](https://www.amazon.com/Two-Scoops-Django-1-11-Practices/dp/0692915729) by Greenfeld and Greenfeld. 2017.
+
+* [Algorithmic Puzzles](https://www.amazon.com/Algorithmic-Puzzles-Anany-Levitin/dp/0199740445) by Levitin and Levitin. 2011.
+
+* [The Nature of Code: Simulating Natural Systems with Processing](https://www.amazon.com/Nature-Code-Simulating-Natural-Processing/dp/0985930802) by Shiffman. 2012.
+
+* [Digital Design of Nature: Computer-Generated Plants and Organics](https://www.amazon.com/Digital-Design-Nature-Generated-X-media-publishing/dp/3540405917) by Deussen and Lintermann. 2005.
+
 ### Electrical Engineering
 
 * [The Art of Electronics](https://www.amazon.com/Art-Electronics-Paul-Horowitz/dp/0521809266) by Horowitz and Hill. 2015.
@@ -39,6 +49,8 @@ A collection of beloved textbooks, as nominated by the Twitter community on Sept
 * [Vector Calculus](https://www.amazon.com/Vector-Calculus-Jerrold-Marsden/dp/0716749920) by Marsden and Tromba. 2003.
 
 * [Conceptual Mathematics: A First Introduction to Categories](http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521719162) by Lawvere and Schanuel. 2009.
+
+* [Visual Complex Analysis](https://www.amazon.com/Visual-Complex-Analysis-Tristan-Needham/dp/0198534469) by Needham. 1999.
 
 ### Earth Sciences and Geography
 
