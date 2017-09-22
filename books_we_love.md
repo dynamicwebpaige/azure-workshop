@@ -72,6 +72,8 @@ Happy reading, folks. :)
 
 * [Type Theory and Functional Programming](https://www.amazon.com/Functional-Programming-International-Computer-Science/dp/0201416670) by Thompson. 1991.
 
+* [Code: The Hidden Language of Computer Hardware and Software](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319) by Petzold. 2000.
+
 ### Electrical Engineering
 
 * [The Art of Electronics](https://www.amazon.com/Art-Electronics-Paul-Horowitz/dp/0521809266) by Horowitz and Hill. 2015.
@@ -110,7 +112,7 @@ Happy reading, folks. :)
 
 * [Linear Algebra Done Right](https://www.amazon.com/Linear-Algebra-Right-Undergraduate-Mathematics/dp/3319110799) by Axler. 2015.
 
-
+* [The Road to Reality: A Complete Guide to the Laws of the Universe](https://www.amazon.com/Road-Reality-Complete-Guide-Universe/dp/0679776311) by Penrose. 2007.
 
 ### Physics
 
@@ -123,6 +125,10 @@ Happy reading, folks. :)
 * [Picturing Quantum Processes: A First Course in Quantum Theory and Diagrammatic Reasoning](https://www.amazon.com/Picturing-Quantum-Processes-Diagrammatic-Reasoning/dp/110710422X) by Coecke and Kissinger. 2017.
 
 * [Fundamentals of Physics](https://www.amazon.com/Fundamentals-Physics-Extended-David-Halliday/dp/1118230728) by Halliday, Resnick, and Walker. 2013.
+
+### Statistics
+
+* [Statistical Rethinking: A Bayesian Course with Examples in R and Stan](https://www.amazon.com/Statistical-Rethinking-Bayesian-Examples-Chapman/dp/1482253445) by McElreath. 2015.
 
 ### Chemistry
 
@@ -176,9 +182,11 @@ Happy reading, folks. :)
 
 * [Zen and the Art of Motorcycle Maintenance](https://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0060589469) by Pirsig. 2006.
 
-### Design
+### Systems Engineering and Industrial Design
 
 * [The Design of Everyday Things](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654) by Norman. 2013.
+
+* [Thinking in Systems: A Primer](https://www.amazon.com/Thinking-Systems-Donella-H-Meadows/dp/1603580557) by Meadows. 2008.
 
 ### Other
 
