@@ -106,6 +106,12 @@ Happy reading, folks. :)
 
 * [Precaculus Mathematics in a Nutshell: Geometry, Algebra, Trigonometry](https://www.indiebound.org/book/9781592441303) by Simmons. 2007.
 
+* [Algebra Chapter 0](https://www.amazon.com/Algebra-Chapter-Graduate-Studies-Mathematics/dp/0821847813) by Aluffi. 2009.
+
+* [Linear Algebra Done Right](https://www.amazon.com/Linear-Algebra-Right-Undergraduate-Mathematics/dp/3319110799) by Axler. 2015.
+
+
+
 ### Physics
 
 * [The Feynman Lectures on Physics](http://feynmanlectures.caltech.edu/) by the man himself. 
