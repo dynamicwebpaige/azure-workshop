@@ -5,8 +5,8 @@ Collection of presentations related to [Azure ML Studio](https://studio.azureml.
 * **May 27**: Half-day Azure ML Studio workshop at the Houston Microsoft campus.
 * **June 1**: 2-hour course (*Business Applications of Machine Learning*) for MIS students at University of Houston.
 * **September 19**: QuickenLoans Tech Conference 2017 (*Deploying Machine Learning Models on Azure: 3 Case Studies*)
-* ** ** : Code Camp NYC
-* : PyCon Florida 2017
+* **October 7**: Florida PyCon 2017
+* **October 14** : Code Camp NYC 2017
 * **November 7-9** : Developer Week Austin 2017
 * **TBD**: 3-hour workshop using Spark Core, Azure ML Studio, and DHT11 sensors for time series anomaly detection.
 
