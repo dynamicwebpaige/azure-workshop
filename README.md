@@ -7,7 +7,11 @@ Collection of presentations related to [Azure ML Studio](https://studio.azureml.
 * **September 19**: QuickenLoans Tech Conference 2017 (*Deploying Machine Learning Models on Azure: 3 Case Studies*)
 * **October 7**: Florida PyCon 2017
 * **October 14** : Code Camp NYC 2017
+* **October 25-27** : Jazoon TechDays Autumn 2017
 * **November 7-9** : Developer Week Austin 2017
+* **November 13-15** : DevReach - Bulgaria 2017
+* **November 24-25** : CodeMotion Madrid 2017
+* **November 27-30** : PyData NYC 2017 
 * **TBD**: 3-hour workshop using Spark Core, Azure ML Studio, and DHT11 sensors for time series anomaly detection.
 
 ### Additional Links
