@@ -10,6 +10,7 @@ Collection of presentations related to [Azure ML Studio](https://studio.azureml.
 * **October 25-27** : Jazoon TechDays Autumn 2017
 * **November 7-9** : Developer Week Austin 2017
 * **November 13-15** : DevReach - Bulgaria 2017
+* **November 17-21** : OpenCamps NYC 2017
 * **November 24-25** : CodeMotion Madrid 2017
 * **November 27-30** : PyData NYC 2017 
 * **TBD**: 3-hour workshop using Spark Core, Azure ML Studio, and DHT11 sensors for time series anomaly detection.
