@@ -44,6 +44,7 @@ Visual Studio Code Tools for AI is a cross-platform extension that supports deep
 
 * [Project Page](https://www.visualstudio.com/downloads/ai-tools/)
 
+-----------------
 
 ### Microsoft Azure Machine Learning Studio
 
@@ -53,6 +54,8 @@ Visual Studio Code Tools for AI is a cross-platform extension that supports deep
 * How to Choose an Algorithm
 * [On-Demand and Live Webinars](https://azureinfo.microsoft.com/BigDataAdvancedAnalyticsWebinars.html)
 * [List of Available Modules](https://msdn.microsoft.com/library/azure/f5c746fd-dcea-4929-ba50-2a79c4c067d7)
+
+-----------------
 
 ### Cognitive Services
 Infuse your apps, websites, and bots with intelligent algorithms to see, hear, speak, understand and interpret your user needs through natural methods of communication. 
@@ -66,6 +69,8 @@ Extract rich information from images to categorize and process visual data, and 
 * [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/home)
 * [API](https://westus.dev.cognitive.microsoft.com/docs/services/56f91f2d778daf23d8ec6739/)
 * [SDK](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/)
+
+-----------------
 
 ##### [Content Moderator](https://azure.microsoft.com/en-us/services/cognitive-services/content-moderator/)
 Machine-assisted moderation of text and images, augmented with human review tools.
@@ -86,6 +91,8 @@ Humans can effectively augment machine learning models in situations where the p
 * [API](https://docs.microsoft.com/en-us/azure/cognitive-services/content-moderator/api-reference)
 * [SDK](https://github.com/MicrosoftContentModerator)
 * [Quickstart](https://docs.microsoft.com/en-us/azure/cognitive-services/content-moderator/quick-start)
+
+-----------------
 
 ##### [Custom Vision Service](https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/)
 Easily customzie your own state-of-the-art computer vision models for you unique use case.
@@ -109,6 +116,8 @@ Personalize user experiences with emotion recognition. Analyze faces to detect a
 * [SDK](https://azure.microsoft.com/en-us/tools/)
 * [Quickstart](https://azure.microsoft.com/en-us/try/cognitive-services/?api=emotion-api)
 
+-----------------
+
 ##### Video Indexer
 Video Indexer is a cloud service that enables you to transcribe videos, track and ID faces, index speakers, recognize text and scenes, translate in real-time, annotate, and more.
 
@@ -116,11 +125,17 @@ Video Indexer is a cloud service that enables you to transcribe videos, track an
 * [SDK](https://videobreakdown.portal.azure-api.net/)
 * [Quickstart](https://vi.microsoft.com/)
 
+-----------------
+
 #### Knowledge
 Map complex information and data in order to solve tasks such as intelligent recommendations and semantic search.
 
+-----------------
+
 #### Language
 Allow your apps to process natural language with pre-built scripts, evaluate sentiment, and learn how to recognize what users want.
+
+-----------------
 
 #### Speech
 Convert spoken audio into text, use voice for verification, or add speaker recognition to your app.
@@ -130,8 +145,12 @@ Convert spoken audio into text, use voice for verification, or add speaker recog
 ##### Speaker Recognition API
 ##### Custom Speech Service
 
+-----------------
+
 #### Search
 Add Bing Search APIs to your apps and harness the ability to comb billions of webpages, images, videos, and news with a single API call.
+
+-----------------
 
 ### Azure Notebooks
 Free, interactive coding in the browser, powered by Jupyter Notebooks.
@@ -139,7 +158,11 @@ Free, interactive coding in the browser, powered by Jupyter Notebooks.
 * [Azure Notebooks](http://notebooks.azure.com)
 * [Python Data Science Handbook](https://notebooks.azure.com/jakevdp/libraries/PythonDataScienceHandbook)
 
+-----------------
+
 ### Python Tools for VS Code
+
+-----------------
 
 ### Learning Resources
 
