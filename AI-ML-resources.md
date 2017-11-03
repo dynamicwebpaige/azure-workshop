@@ -7,6 +7,15 @@
 ### SQL Server - Machine Learning
 
 ### CNTK 
+A free, easy-to-use, open-source, commercial-grade toolkit that trains deep learning algorithms to learn like the human brain.
+
+* [Product Website](https://www.microsoft.com/en-us/cognitive-toolkit/)
+* [Code](https://github.com/Microsoft/CNTK)
+* [Quickstart]()
+* [Tutorial](https://github.com/Microsoft/CNTK/tree/master/Tutorials)
+* [Examples](https://github.com/Microsoft/CNTK/tree/master/Examples)
+* [Documentation](https://github.com/Microsoft/CNTK/tree/master/Documentation)
+
 
 ### Azure Machine Learning Workbench
 
