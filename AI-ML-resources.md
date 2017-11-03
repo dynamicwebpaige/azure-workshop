@@ -26,6 +26,11 @@ A free, easy-to-use, open-source, commercial-grade toolkit that trains deep lear
 
 
 ### Azure Machine Learning Workbench
+Azure Machine Learning is an integrated, end-to-end data science and advanced analytics solution. It helps professional data scientists to prepare data, develop experiments, and deploy models at cloud scale.
+
+* [Product Website](https://docs.microsoft.com/en-us/azure/machine-learning/preview/)
+* [Tutorials](https://docs.microsoft.com/en-us/azure/machine-learning/preview/tutorial-classifying-iris-part-1)
+* [How To Guides](https://docs.microsoft.com/en-us/azure/machine-learning/preview/how-to-configure-your-ide)
 
 ### AI Tools for VS Code
 
