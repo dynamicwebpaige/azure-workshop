@@ -7,12 +7,16 @@
 * [Data Platform Blog](https://blogs.msdn.microsoft.com/data-platform/)
 * [AI Blog](https://blogs.microsoft.com/ai/tag/artificial-intelligence/)
 
+-------
+
 ### Microsoft Machine Learning Services
 The goal of the Microsoft Machine Learning Services is to provide an extensible, scalable platform for integrating machine learning tasks and tools with the applications that consume machine learning services. The platform must serve the needs of all users involved in the data development and analytics process, from data scientists, to architects and database adminstrators.
 
 * [Tutorials](https://docs.microsoft.com/en-us/sql/advanced-analytics/tutorials/machine-learning-services-tutorials)
 * [Data Science Solution Templates](https://docs.microsoft.com/en-us/sql/advanced-analytics/tutorials/data-science-scenarios-and-solution-templates)
 * [How To](https://docs.microsoft.com/en-us/sql/advanced-analytics/r/sql-server-machine-learning-tasks)
+
+---------
 
 ### CNTK 
 A free, easy-to-use, open-source, commercial-grade toolkit that trains deep learning algorithms to learn like the human brain.
@@ -21,9 +25,10 @@ A free, easy-to-use, open-source, commercial-grade toolkit that trains deep lear
 * [Code](https://github.com/Microsoft/CNTK)
 * [Quickstart]()
 * [Tutorial](https://github.com/Microsoft/CNTK/tree/master/Tutorials)
-
 * [Examples](https://github.com/Microsoft/CNTK/tree/master/Examples)
 * [Documentation](https://github.com/Microsoft/CNTK/tree/master/Documentation)
+
+-------------
 
 ### Azure Machine Learning Workbench
 Azure Machine Learning is an integrated, end-to-end data science and advanced analytics solution. It helps professional data scientists to prepare data, develop experiments, and deploy models at cloud scale.
@@ -32,10 +37,13 @@ Azure Machine Learning is an integrated, end-to-end data science and advanced an
 * [Tutorials](https://docs.microsoft.com/en-us/azure/machine-learning/preview/tutorial-classifying-iris-part-1)
 * [How To Guides](https://docs.microsoft.com/en-us/azure/machine-learning/preview/how-to-configure-your-ide)
 
+-----------------
+
 ### AI Tools for VS Code
 Visual Studio Code Tools for AI is a cross-platform extension that supports deep learning frameworks including Microsoft Cognitive Toolkit (CNTK), Google Tensorflow, Theano, Keras, Caffe2, and more. You can use additional deep learning frameworks via the open architecture. Visual Studio Code Tools for AI leverages existing code support for Python, C/C++/C#, and supplies additional support for Cognitive Toolkit BrainScript.
 
 * [Project Page](https://www.visualstudio.com/downloads/ai-tools/)
+
 
 ### Microsoft Azure Machine Learning Studio
 
