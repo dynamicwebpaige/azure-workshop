@@ -58,25 +58,54 @@ Extract rich information from images to categorize and process visual data, and 
 * [API](https://westus.dev.cognitive.microsoft.com/docs/services/56f91f2d778daf23d8ec6739/)
 * [SDK](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/)
 
-##### [Content Moderator
+##### [Content Moderator](https://azure.microsoft.com/en-us/services/cognitive-services/content-moderator/)
 Machine-assisted moderation of text and images, augmented with human review tools.
 
-* Image Moderation
-* Text Moderation
-* Video Moderation
-* Human Review Tool
+###### Image Moderation 
+Enhance your ability to detect potentially offensive or unwanted images through machine-learning based classifiers, custom blacklists, and optical character recognition.
 
-##### Custom Vision Service
+###### Text Moderation
+Helps you detect potential profanity in more than 100 languages and match text against your custom lists automatically. Content Moderator also checks for possible personally identifiable information (PII).
+
+###### Video Moderation
+Enable the scoring of possible adult content in videos. Video moderation is currently deployed in preview on Azure Media Services.
+
+###### Human Review Tool
+Humans can effectively augment machine learning models in situations where the prediction confidence warrants assistance or when decisions must be tempered with a real world context. Enjoy visibility, flexibility and control with a human review tool that supervises the results of your algorithms.
+
+* [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/content-moderator/overview)
+* [API](https://docs.microsoft.com/en-us/azure/cognitive-services/content-moderator/api-reference)
+* [SDK](https://github.com/MicrosoftContentModerator)
+* [Quickstart](https://docs.microsoft.com/en-us/azure/cognitive-services/content-moderator/quick-start)
+
+##### [Custom Vision Service](https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/)
 Easily customzie your own state-of-the-art computer vision models for you unique use case.
 
+* [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/home)
+* [Quickstart](https://www.customvision.ai/)
+
 ##### Face API
-Detect, identify, analyze, organize, and tag faces in photos.
+Detect, identify, analyze, organize, and tag faces in photos. Face verification, similar face search, and face grouping.
+
+* [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/face/overview)
+* [API](https://westus.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d)
+* [SDK](https://docs.microsoft.com/en-us/azure/cognitive-services/face/)
+* [Quickstart](https://azure.microsoft.com/en-us/try/cognitive-services/?api=face-api)
 
 ##### Emotion API
-Personalize user experiences with emotion recognition.
+Personalize user experiences with emotion recognition. Analyze faces to detect a range of feelings and personalize your app's responses. The Emotion API takes a facial expression in an image as an input, and returns the confidence across a set of emotions for each face in the image, as well as bounding box for the face, using the Face API. If a user has already called the Face API, they can submit the face rectangle as an optional input.
+
+* [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/emotion/home)
+* [API](https://westus.dev.cognitive.microsoft.com/docs/services/5639d931ca73072154c1ce89)
+* [SDK](https://azure.microsoft.com/en-us/tools/)
+* [Quickstart](https://azure.microsoft.com/en-us/try/cognitive-services/?api=emotion-api)
 
 ##### Video Indexer
-Unlock video insights.
+Video Indexer is a cloud service that enables you to transcribe videos, track and ID faces, index speakers, recognize text and scenes, translate in real-time, annotate, and more.
+
+* [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/video-indexer/video-indexer-overview)
+* [SDK](https://videobreakdown.portal.azure-api.net/)
+* [Quickstart](https://vi.microsoft.com/)
 
 #### Knowledge
 Map complex information and data in order to solve tasks such as intelligent recommendations and semantic search.
