@@ -11,7 +11,8 @@
 The goal of the Microsoft Machine Learning Services is to provide an extensible, scalable platform for integrating machine learning tasks and tools with the applications that consume machine learning services. The platform must serve the needs of all users involved in the data development and analytics process, from data scientists, to architects and database adminstrators.
 
 * [Tutorials](https://docs.microsoft.com/en-us/sql/advanced-analytics/tutorials/machine-learning-services-tutorials)
-* [Data Science Solution Templates](https://docs.microsoft.com/en-us/sql/advanced-analytics/tutorials/data-science-scenarios-and-solution-templates)* [How To](https://docs.microsoft.com/en-us/sql/advanced-analytics/r/sql-server-machine-learning-tasks)
+* [Data Science Solution Templates](https://docs.microsoft.com/en-us/sql/advanced-analytics/tutorials/data-science-scenarios-and-solution-templates)
+* [How To](https://docs.microsoft.com/en-us/sql/advanced-analytics/r/sql-server-machine-learning-tasks)
 
 ### CNTK 
 A free, easy-to-use, open-source, commercial-grade toolkit that trains deep learning algorithms to learn like the human brain.
