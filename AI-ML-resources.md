@@ -24,7 +24,6 @@ A free, easy-to-use, open-source, commercial-grade toolkit that trains deep lear
 * [Examples](https://github.com/Microsoft/CNTK/tree/master/Examples)
 * [Documentation](https://github.com/Microsoft/CNTK/tree/master/Documentation)
 
-
 ### Azure Machine Learning Workbench
 Azure Machine Learning is an integrated, end-to-end data science and advanced analytics solution. It helps professional data scientists to prepare data, develop experiments, and deploy models at cloud scale.
 
@@ -59,8 +58,13 @@ Extract rich information from images to categorize and process visual data, and 
 * [API](https://westus.dev.cognitive.microsoft.com/docs/services/56f91f2d778daf23d8ec6739/)
 * [SDK](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/)
 
-##### Content Moderator
-Automated image, text, and video moderation.
+##### [Content Moderator
+Machine-assisted moderation of text and images, augmented with human review tools.
+
+* Image Moderation
+* Text Moderation
+* Video Moderation
+* Human Review Tool
 
 ##### Custom Vision Service
 Easily customzie your own state-of-the-art computer vision models for you unique use case.
