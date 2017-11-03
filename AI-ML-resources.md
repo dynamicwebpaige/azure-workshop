@@ -254,6 +254,59 @@ Add Bing Search APIs to your apps and harness the ability to comb billions of we
 
 -----------------
 
+#### [Cognitive Services Labs](https://labs.cognitive.microsoft.com/)
+Labs provides developers with an early look at emerging Cognitive Services technologies. Early adopters who do not need market-ready technology can discover, try and provide feedback on new Cognitive Services technologies before they are generally available. 
+
+-------------
+
+##### [Project Johannesburg](https://labs.cognitive.microsoft.com/en-us/project-johannesburg)
+Calculate route logistics with deeper location intelligence to account for enterprise requirements, like weight, height, and hazardous materials. 
+
+* [Documentation](https://labs.cognitive.microsoft.com/en-us/Project-Johannesburg/documentation)
+* [API](https://dev.labs.cognitive.microsoft.com/docs/services/58ebf70eba2ff578776b7ad9/operations/58ed076e59c8301038074190)
+-----------------
+
+##### [Project Nanjing](https://labs.cognitive.microsoft.com/en-us/project-nanjing)
+Calculate isochrones - time and distance-based recommendations for enterprise route optimization.
+
+* [Documentation](https://labs.cognitive.microsoft.com/en-us/Project-Nanjing/documentation)
+* [API](https://dev.labs.cognitive.microsoft.com/docs/services/58ebf70eba2ff578776b7ad9/operations/58f1022c59c83010380741da)
+
+----------------
+
+##### [Project Wollongong](https://labs.cognitive.microsoft.com/en-us/project-wollongong)
+Score the attractiveness of a location, based on how many of a particular amenity are within a specific distance. 
+
+* [Documentation](https://labs.cognitive.microsoft.com/en-us/Project-Wollongong/documentation)
+* [API](https://dev.labs.cognitive.microsoft.com/docs/services/58da92d422afbdbea67a11cc/operations/58f0410559c83010380741ae)
+
+---------------
+
+##### [Project Abu Dhabi](https://labs.cognitive.microsoft.com/en-us/project-abu-dhabi)
+Create distance matrices, enabling you to calculate a histogram of travel times, and serve as stepping stone for enterprise route optimization.
+
+* [Documentation](https://labs.cognitive.microsoft.com/en-us/Project-Abu-Dhabi/documentation)
+* [API](https://dev.labs.cognitive.microsoft.com/docs/services/58ebf70eba2ff578776b7ad9/operations/58f06a97bd1b6bd25e2d53a3)
+
+--------------
+
+##### [Project Cuzco](https://labs.cognitive.microsoft.com/en-us/project-cuzco)
+Find events associated with Wikipedia entities. Begin with a Wikipedia entity, and receive a list of related events organized by time. 
+
+* [Documentation](https://labs.cognitive.microsoft.com/en-us/Project-Cuzco/documentation/overview)
+* [API](https://dev.labs.cognitive.microsoft.com/docs/services/590bf0b54f545a0de4422d3b/operations/590bf0b64f545a06a4530029)
+
+-----------------
+
+##### [Project Prague](https://labs.cognitive.microsoft.com/en-us/project-prague)
+Incorporate gesture-based controls into your apps. Quickly define and implement customized hand gestures, creating a more natural user experience.
+
+* [Documentation](https://aka.ms/gestures/docs)
+* [SDK](https://aka.ms/gestures/download)
+* [Code Samples](https://aka.ms/gestures/samples)
+
+----------------
+
 ### Azure Notebooks
 Free, interactive coding in the browser, powered by Jupyter Notebooks.
 
