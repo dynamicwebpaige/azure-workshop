@@ -3,6 +3,9 @@
 ### Data Science Blogs
 
 ### Artificial Intelligence Blogs
+Microsoft Research produces an Artificial Intelligence blog with code samples, case studies, and academic papers. 
+
+* [AI Blog](https://blogs.microsoft.com/ai/tag/artificial-intelligence/)
 
 ### SQL Server - Machine Learning
 
