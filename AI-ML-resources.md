@@ -239,11 +239,28 @@ The Linguistic Analysis API can tap into traditional linguistic analysis tools t
 
 -----------------
 
-#### Speech
+#### [Speech](https://azure.microsoft.com/en-us/services/cognitive-services/directory/speech/)
 Convert spoken audio into text, use voice for verification, or add speaker recognition to your app.
 
 ##### Translator Speech API
-##### Bing Speech API
+Easily add speech translation and transcription to your app, optimized for real-life conversation. 
+
+* [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/translator-info-overview/)
+* [Portal](https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeechTranslation)
+
+-----------------
+
+##### [Bing Speech API](https://azure.microsoft.com/en-us/services/cognitive-services/speech/)
+Convert spoken audio to text. The API can be directed to turn on and recognize audio coming from the microphone in real-time, recognize audio coming from a different real-time audio source, or to recognize audio from within a file. In all cases, real-time streaming is available, so as the audio is being sent to the server, partial recognition results are also being returned.
+
+The Speech to Text API enables you to build smart apps that are voice triggered. To see how it works select your target language then click on the microphone and start speaking. Or simply click on one of the sample speech phrases to see how speech recognition works. When you use this demo you consent to providing your voice input data to Microsoft for service improvement purpose
+
+* [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/speech/home)
+* [Portal](https://portal.azure.com/#create/Microsoft.CognitiveServices/apitype/Bing.Speech)
+* [Quickstart](https://azure.microsoft.com/en-us/try/cognitive-services/?api=speech-api)
+
+-----------------
+
 ##### Speaker Recognition API
 ##### Custom Speech Service
 
