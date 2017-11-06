@@ -19,15 +19,36 @@ For testing only: includes 1,000 API transactions and 2 API compute hours.
 
  API	| Description | Number of Transactions per Month 
 ---|---| -----
- Academic Knowledge | | 	
- Bing Autosuggest	| |
- Bing Custom Search	| |
- Bing Entity Search	| |
+ Academic Knowledge | | 10,000	
+ Bing Autosuggest	| | N/A
+ Bing Custom Search	| | N/A
+ Bing Entity Search	| | N/A
  Bing Image Search	| |
  Bing News Search	| |
- Bing Speech	| |
+ Bing Speech	| | 5,000
  Bing Spell Check | |	
  Bing Video Search	| |
-	
+ Bing Web Search | |
+ Computer Vision | | 5,000
+ Content Moderator | |
+ Custom Speech Service | | 1 model deployment, 3 hours of adaptation/month, 2 hours of requests/month, 2 hours of testing/month, 1 concurrent request
+ Emotion | | 10 maximum transactions/second, 30,000 maximum transactions/month, 1 upload per minute, 3,000 status queries/month, 5 queries per minute
+ Face | | 30,000, up to 20 transactions/minute
+Language Understanding Intelligent Service (LUIS) | | 10,000
+Recommendations | | 10,000
+Speaker Recognition | |
+Text Analytics | | 5,000
+Translator Speech | | 10 hours
+Translator Text | | 2,000,000 translated characters
+Web Language Model | | 100,000
+
+### IoT Hub
+Up to 500 devices, with a limit of 8,000 messages per day.
+
+### Notification Hubs
+1 million pushes for 500 active devices per month.
+
+### Event Grid
+First 100,000 operations are free per month.
 
 
