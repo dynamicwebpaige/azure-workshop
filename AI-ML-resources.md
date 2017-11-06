@@ -57,10 +57,10 @@ Visual Studio Code Tools for AI is a cross-platform extension that supports deep
 
 -----------------
 
-### Cognitive Services
+# Cognitive Services
 Infuse your apps, websites, and bots with intelligent algorithms to see, hear, speak, understand and interpret your user needs through natural methods of communication. 
 
-#### Vision
+## [Vision](https://azure.microsoft.com/en-us/services/cognitive-services/directory/search/#vision)
 Image processing algorithms to smartly identify, caption, and moderate your pictures.
 
 ##### [Computer Vision API](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/)
@@ -102,7 +102,7 @@ Easily customzie your own state-of-the-art computer vision models for you unique
 
 -----------------
 
-##### Face API
+##### [Face API](https://azure.microsoft.com/en-us/services/cognitive-services/face/)
 Detect, identify, analyze, organize, and tag faces in photos. Face verification, similar face search, and face grouping.
 
 * [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/face/overview)
@@ -112,7 +112,7 @@ Detect, identify, analyze, organize, and tag faces in photos. Face verification,
 
 ------------------
 
-##### Emotion API
+##### [Emotion API](https://azure.microsoft.com/en-us/services/cognitive-services/emotion/)
 Personalize user experiences with emotion recognition. Analyze faces to detect a range of feelings and personalize your app's responses. The Emotion API takes a facial expression in an image as an input, and returns the confidence across a set of emotions for each face in the image, as well as bounding box for the face, using the Face API. If a user has already called the Face API, they can submit the face rectangle as an optional input.
 
 * [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/emotion/home)
@@ -122,7 +122,7 @@ Personalize user experiences with emotion recognition. Analyze faces to detect a
 
 -----------------
 
-##### Video Indexer
+##### [Video Indexer](https://azure.microsoft.com/en-us/services/cognitive-services/video-indexer/)
 Video Indexer is a cloud service that enables you to transcribe videos, track and ID faces, index speakers, recognize text and scenes, translate in real-time, annotate, and more.
 
 * [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/video-indexer/video-indexer-overview)
@@ -131,10 +131,10 @@ Video Indexer is a cloud service that enables you to transcribe videos, track an
 
 -----------------
 
-#### [Knowledge](https://azure.microsoft.com/en-us/services/cognitive-services/directory/lang/)
+## [Knowledge](https://azure.microsoft.com/en-us/services/cognitive-services/directory/lang/)
 Map complex information and data in order to solve tasks such as intelligent recommendations and semantic search.
 
-##### Recommendations API
+##### [Recommendations API](https://azure.microsoft.com/en-us/services/cognitive-services/recommendations/)
 Learn from previous transactions to predict which items are more likely to be of interest to or purchased by your customers. Built using Azure Machine Learning, the Recommendations engine uses customer data—either past customer activity you’ve uploaded or data collected directly from your digital store—to offer recommended items for your customers and increase conversion rates.
 
 * [Documentation](https://docs.microsoft.com/api/Redirect/en-us/documentation/articles/cognitive-services-recommendations-quick-start/)
@@ -173,15 +173,28 @@ Tap into the wealth of academic content in the Microsoft Academic Graph using th
 
 ----------------
 
-##### QnA Maker API
-##### Custom Decision Service
+##### [QnA Maker API](https://azure.microsoft.com/en-us/services/cognitive-services/qna-maker/)
+Distill question and answer information into an easy-to-navigate FAQ.
+
+* [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/home)
+* [API](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/httpendpoint)
+* [SDK](https://azure.microsoft.com/en-us/tools/)
+* [Quickstart](https://qnamaker.ai/)
 
 -----------------
 
-#### Language
+##### [Custom Decision Service](https://azure.microsoft.com/en-us/services/cognitive-services/custom-decision-service/)
+A cloud-based, contextual decision-making API that sharpens with experience.
+
+* [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-decision-service/custom-decision-service-overview)
+* [Quickstart](https://azure.microsoft.com/en-us/try/cognitive-services/?api=custom-decision-service)
+
+-----------------
+
+## [Language](https://azure.microsoft.com/en-us/services/cognitive-services/directory/search/#lang)
 Allow your apps to process natural language with pre-built scripts, evaluate sentiment, and learn how to recognize what users want.
 
-##### Language Understanding Intelligent Service (LUIS)
+##### [Language Understanding Intelligent Service (LUIS)](https://azure.microsoft.com/en-us/services/cognitive-services/spell-check/)
 One of the key problems in human-computer interactions is the ability of the computers to understand what a person wants, and to find the pieces of information that are relevant to his/her intention. Our Language Understanding intelligent service, LUIS, provides simple tools that enable you to build your own language models (intents/entities) which allow any application/bot to understand your commands and act accordingly... Now, try our demo to visualize some of the usage scenarios relaying on LUIS.
 
 * [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/home)
@@ -190,7 +203,7 @@ One of the key problems in human-computer interactions is the ability of the com
 
 ----------
 
-##### Bing Spell Check API
+##### [Bing Spell Check API](https://azure.microsoft.com/en-us/services/cognitive-services/spell-check/)
 Detect and correct spelling mistakes in your app - word breaks, slang, names, homonyms, and brands.
 
 * [Documentation](https://aka.ms/SpellCheckDocLP)
@@ -200,7 +213,7 @@ Detect and correct spelling mistakes in your app - word breaks, slang, names, ho
 
 ----------------
 
-##### Web Language Model API
+##### [Web Language Model API](https://azure.microsoft.com/en-us/services/cognitive-services/web-language-model/)
 Automate a variety of standard natural language processing tasks using state-of-the-art language modeling APIs. Supports word breaking, next word completions, and joint / conditional probabilities.
 
 * [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/web-language-model/home/)
@@ -211,7 +224,7 @@ Automate a variety of standard natural language processing tasks using state-of-
 
 -----------------
 
-##### Text Analytics API
+##### [Text Analytics API](https://azure.microsoft.com/en-us/services/cognitive-services/translator-text-api/)
 Detect sentiment, key phrases, topics, and language from your text.
 
 * [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/overview)
@@ -221,7 +234,7 @@ Detect sentiment, key phrases, topics, and language from your text.
 
 -----------------
 
-##### Translator Text API
+##### [Translator Text API](https://azure.microsoft.com/en-us/services/cognitive-services/translator-text-api/)
 Automatically detect languages, crowd-source translation improvement, and conduct real-time text translation with a simple REST API call. 
 
 * [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/translator-info-overview/)
@@ -229,7 +242,7 @@ Automatically detect languages, crowd-source translation improvement, and conduc
 
 -------------------
 
-##### Linguistic Analysis API
+##### [Linguistic Analysis API](https://azure.microsoft.com/en-us/services/cognitive-services/linguistic-analysis-api/)
 The Linguistic Analysis API can tap into traditional linguistic analysis tools that allow you to identify the concepts and actions in your text with part-of-speech tagging, and find phrases and concepts using natural language parsers. Whether you’re mining customer feedback, interpreting user commands, or consuming web text, understanding the structure of the text is a critical first step.
 
 * [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/linguisticanalysisapi/home/)
@@ -239,10 +252,10 @@ The Linguistic Analysis API can tap into traditional linguistic analysis tools t
 
 -----------------
 
-#### [Speech](https://azure.microsoft.com/en-us/services/cognitive-services/directory/speech/)
+## [Speech](https://azure.microsoft.com/en-us/services/cognitive-services/directory/speech/)
 Convert spoken audio into text, use voice for verification, or add speaker recognition to your app.
 
-##### Translator Speech API
+##### [Translator Speech API](https://azure.microsoft.com/en-us/services/cognitive-services/translator-speech-api/)
 Easily add speech translation and transcription to your app, optimized for real-life conversation. 
 
 * [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/translator-info-overview/)
@@ -272,7 +285,7 @@ Identify individual speakers or use speech as a means of authentication with the
 
 -----------------
 
-##### Custom Speech Service
+##### [Custom Speech Service](https://azure.microsoft.com/en-us/services/cognitive-services/custom-speech-service/)
 Overcome speech recognition barriers such as speaking style, vocabulary and background noise. Create custom language and acoustic models.
 
 * [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-speech-service/cognitive-services-custom-speech-home)
@@ -282,10 +295,12 @@ Overcome speech recognition barriers such as speaking style, vocabulary and back
 
 -----------------
 
-#### [Search](https://azure.microsoft.com/en-us/services/cognitive-services/directory/search/#search)
+## [Search](https://azure.microsoft.com/en-us/services/cognitive-services/directory/search/#search)
 Add Bing Search APIs to your apps and harness the ability to comb billions of webpages, images, videos, and news with a single API call.
 
-##### Bing Autosuggest API
+-----------------
+
+##### [Bing Autosuggest API](https://azure.microsoft.com/en-us/services/cognitive-services/autosuggest/)
 Empower users to type less and do more with automated and complete search suggestions.
 
 * [Documentation](https://aka.ms/AutoSuggestDocLP)
@@ -353,7 +368,7 @@ Quickly and reliably define the slices of the web that you want to draw from. Ch
 
 -----------------
 
-#### [Cognitive Services Labs](https://labs.cognitive.microsoft.com/)
+## [Cognitive Services Labs](https://labs.cognitive.microsoft.com/)
 Labs provides developers with an early look at emerging Cognitive Services technologies. Early adopters who do not need market-ready technology can discover, try and provide feedback on new Cognitive Services technologies before they are generally available. 
 
 -------------
