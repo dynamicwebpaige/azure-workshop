@@ -305,11 +305,51 @@ Turn any app or website into a news search resource with world news grouped and 
 
 -----------------
 
-##### Bing Web Search API
-##### Bing Entity Search API
-##### Bing Image Search API
-##### Bing Video Search API
-##### Bing Custom Search API
+##### [Bing Web Search API](https://azure.microsoft.com/en-us/services/cognitive-services/bing-web-search-api/)
+Bring intelligent search to your apps and harness the ability to comb billions of webpages, images, videos, and news with a single API call. Retrieve web documents and narrow down the results by type, freshness, and more.
+
+* [Documentation](https://aka.ms/WebSearchDocLP)
+* [API](https://dev.cognitive.microsoft.com/docs/services/f40197291cd14401b93a478716e818bf/operations/56b4447dcf5ff8098cef380d)
+* [Portal](https://portal.azure.com/#create/Microsoft.CognitiveServicesBingSearch-v7)
+* [Quickstart](https://azure.microsoft.com/en-us/try/cognitive-services/?api=bing-web-search-api)
+
+-----------------
+
+##### [Bing Entity Search API](https://azure.microsoft.com/en-us/services/cognitive-services/bing-entity-search-api/)
+Bing Entity Search API will identify the most relevant entity based on your searched term, spanning multiple entity types such as famous people, places, movies, TV shows, video games, books, and even local businesses near you.
+
+* [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/bing-entities-search/search-the-web)
+* [API](https://dev.cognitive.microsoft.com/docs/services/7a3fb374be374859a823b79fd938cc65)
+* [Quickstart](https://azure.microsoft.com/en-us/try/cognitive-services/?api=bing-entity-search-api)
+
+-----------------
+
+##### [Bing Image Search API](https://azure.microsoft.com/en-us/services/cognitive-services/bing-image-search-api/)
+Scour the web for images! Includes thumbnails, full image URLs, publishing website info, image metadata, and more. There are also sorting and filtering options that simplify finding specific results in image searches and enable paging of results.
+
+* [Documentation](https://aka.ms/ImageSearchDocLP)
+* [API](https://dev.cognitive.microsoft.com/docs/services/8336afba49a84475ba401758c0dbf749/operations/56b4433fcf5ff8098cef380c)
+* [Portal](https://portal.azure.com/#create/Microsoft.CognitiveServicesBingSearch-v7)
+* [Quickstart](https://azure.microsoft.com/en-us/try/cognitive-services/?api=bing-image-search-api)
+
+-----------------
+
+##### [Bing Video Search API](https://azure.microsoft.com/en-us/services/cognitive-services/bing-video-search-api/)
+Add a variety of advanced video search features to your app or website, including video previews, trending videos, and other useful metadata.
+
+* [Documentation](https://aka.ms/VideoSearchDocLP)
+* [API](https://dev.cognitive.microsoft.com/docs/services/3960b4bc7b3a4bc5b97c42d78036d234/operations/56b440d2cf5ff8098cef380b)
+* [Portal](https://portal.azure.com/#create/Microsoft.CognitiveServicesBingSearch-v7)
+* [Quickstart](https://azure.microsoft.com/en-us/try/cognitive-services/?api=bing-video-search-api)
+
+-----------------
+
+##### [Bing Custom Search API](https://azure.microsoft.com/en-us/services/cognitive-services/bing-custom-search/)
+Quickly and reliably define the slices of the web that you want to draw from. Change the parameters of the sites you want and don't want at any time. Explore site suggestions to intelligently expand the scope of your search domain.
+
+* [Documentation](https://aka.ms/CustomSearchDocLP)
+* [Portal](https://portal.azure.com/#create/Microsoft.CognitiveServicesBingCustomSearch)
+* [Quickstart](https://azure.microsoft.com/en-us/try/cognitive-services/?api=bing-custom-search)
 
 -----------------
 
