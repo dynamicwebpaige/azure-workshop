@@ -3,6 +3,9 @@
 
 It can be difficult to navigate service offerings for machine learning and artificial intelligence – especially if you’re interested in free trials, before you buy. Below is a detailed listing of Azure free-tier services, as of Monday, November 6th, 2017. Please note that many of these services may only be offered in specific regions (East US 2 being most common).
 
+### Azure Notebooks
+Completely free, with a size limitation of 4GB per user.
+
 ### Azure Machine Learning Services – Experimentation
 The first two seats are free, with each subsequent seat running at ~$49.50.
 
