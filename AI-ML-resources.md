@@ -23,7 +23,7 @@ A free, easy-to-use, open-source, commercial-grade toolkit that trains deep lear
 
 * [Product Website](https://www.microsoft.com/en-us/cognitive-toolkit/)
 * [Code](https://github.com/Microsoft/CNTK)
-* [Quickstart]()
+* [Quickstart](https://docs.microsoft.com/en-us/azure/batch-ai/quickstart-python)
 * [Tutorial](https://github.com/Microsoft/CNTK/tree/master/Tutorials)
 * [Examples](https://github.com/Microsoft/CNTK/tree/master/Examples)
 * [Documentation](https://github.com/Microsoft/CNTK/tree/master/Documentation)
@@ -49,9 +49,10 @@ Visual Studio Code Tools for AI is a cross-platform extension that supports deep
 ### Microsoft Azure Machine Learning Studio
 
 * [Product Page](https://studio.azureml.net/)
-* Cortana Intelligence Samples Gallery
-* Getting Started
-* How to Choose an Algorithm
+* [Cortana Intelligence Samples Gallery](https://gallery.cortanaintelligence.com/)
+* [Getting Started](https://docs.microsoft.com/en-us/azure/machine-learning/studio/)
+* [How To](https://docs.microsoft.com/en-us/azure/machine-learning/studio/create-workspace)
+* [How to Choose an Algorithm](https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-choice)
 * [On-Demand and Live Webinars](https://azureinfo.microsoft.com/BigDataAdvancedAnalyticsWebinars.html)
 * [List of Available Modules](https://msdn.microsoft.com/library/azure/f5c746fd-dcea-4929-ba50-2a79c4c067d7)
 
@@ -425,6 +426,7 @@ Incorporate gesture-based controls into your apps. Quickly define and implement 
 Free, interactive coding in the browser, powered by Jupyter Notebooks.
 
 > * [Python Data Science Handbook](https://notebooks.azure.com/jakevdp/libraries/PythonDataScienceHandbook)
+> > The book introduces the core libraries essential for working with data in Python: particularly IPython, NumPy, Pandas, Matplotlib, Scikit-Learn, and related packages. Familiarity with Python as a language is assumed.
 > * [Introduction to R](http://notebooks.azure.com)
 > > Get a brief introduction to charting and graphing capabilities of R in the Jupyter notebook. You will learn how to make line charts, pie charts, and scatter plots.
 > * [Introduction to F#](https://notebooks.azure.com/#)
@@ -442,10 +444,17 @@ Free, interactive coding in the browser, powered by Jupyter Notebooks.
 > * [Create and Deploy an Intelligent Cloud Service](https://notebooks.azure.com/#)
 > > Unlock the power in your data by training intelligent apps and services using Azure ML. This sample notebook uses research data to train a model to predict body temperatures of mammals in Wisconsin.
 > * [ENG101 from Cambridge University](https://notebooks.azure.com/garth-wells/libraries/CUED-IA-Computing-Michaelmas)
+> > These Jupyter notebooks provide a self-study introduction to computing with Python. They have been developed for the computing course in Part IA (Michaelmas Term) of the Engineering Tripos at University of Cambridge. This is a first computing course for undergraduate students.
 
 -----------------
 
-### Python Tools for VS Code
+### [Python Tools for VS Code](https://code.visualstudio.com/docs/languages/python)
+
+Python is fully supported in Visual Studio Code through extensions. Popular extensions in the Marketplace provide code completion, linting, debugging, code formatting, snippets, and more.
+
+-----------------
+
+### [Python Tools for Visual Studio](https://microsoft.github.io/PTVS/)
 
 -----------------
 
