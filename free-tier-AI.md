@@ -1,9 +1,9 @@
 # Azure Services: Free Tier
 ## _Machine Learning and Artificial Intelligence_
 
-It can be difficult to navigate service offerings for machine learning and artificial intelligence – especially if you’re interested in free offerings, after the 30- or 90-day trials end. Below is a detailed listing of Azure free-tier AI and ML services, as of Monday, November 6th, 2017. Please note that many of these services may only be offered in specific regions (East US 2 being most common). I also encourage you to look at the [full list of free Azure offerings](https://azure.microsoft.com/en-us/free/).
+It can be difficult to navigate pricing structures for machine learning and artificial intelligence services – especially if you’re only interested in free offerings, after the 30- or 90-day trials end. Below is a detailed listing of Azure free-tier AI and ML services, as of Monday, November 6th, 2017. Please note that many of these services may only be offered in specific regions (East US 2 being most common). I also encourage you to look at the [full list of free Azure offerings](https://azure.microsoft.com/en-us/free/).
 
-### Azure Notebooks
+### [Azure Notebooks](http://notebooks.azure.com)
 Completely free, with a size limitation of 4GB per user.
 
 ### Azure Machine Learning Services – Experimentation
