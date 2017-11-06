@@ -6,16 +6,16 @@ It can be difficult to navigate pricing structures for machine learning and arti
 ### [Azure Notebooks](http://notebooks.azure.com)
 Completely free, with a size limitation of 4GB per user.
 
-### Azure Machine Learning Services – Experimentation
+### [Azure Machine Learning Services – Experimentation](https://docs.microsoft.com/en-us/azure/machine-learning/preview/)
 The first two seats are free, with each subsequent seat running at ~$49.50.
 
-### Azure Machine Learning Services – Model Management
+### [Azure Machine Learning Services – Model Management](https://docs.microsoft.com/en-us/azure/machine-learning/preview/model-management-overview)
 For Development and Testing purposes only; includes 20 managed models, 2 managed deployments, and 4 cores. 
 
-### Azure Machine Learning Studio - Workspace
+### [Azure Machine Learning Studio - Workspace](https://studio.azureml.net/)
 The free tier is intended to provide an in-depth introduction to the Azure Machine Learning Studio. The free tier includes free access to one Azure Machine Learning Studio workspace per Microsoft account. It includes the ability to use up to 10GB of storage and the ability to operationalize models as staging APIs.
 
-### Azure Machine Learning Studio – API Usage (New Web Service)
+### [Azure Machine Learning Studio – API Usage (New Web Service)](https://docs.microsoft.com/en-us/azure/machine-learning/studio/manage-new-webservice)
 For testing only: includes 1,000 API transactions and 2 API compute hours.
 
 ## Cognitive Services
@@ -52,13 +52,13 @@ For testing only: includes 1,000 API transactions and 2 API compute hours.
 [Linguistic Analysis](https://azure.microsoft.com/en-us/services/cognitive-services/linguistic-analysis-api/) | Simplify complex language concepts and parse text. | Preview mode.
 [Translator Speech](https://azure.microsoft.com/en-us/services/cognitive-services/translator-speech-api/) | Real-time voice translation. | 10 hours
 
-### IoT Hub
+### [IoT Hub](https://azure.microsoft.com/en-us/services/iot-hub/)
 Up to 500 devices, with a limit of 8,000 messages per day.
 
-### Notification Hubs
+### [Notification Hubs](https://azure.microsoft.com/en-us/services/notification-hubs/)
 1 million pushes for 500 active devices per month.
 
-### Event Grid
+### [Event Grid](https://azure.microsoft.com/en-us/services/event-grid/)
 First 100,000 operations are free per month.
 
 
