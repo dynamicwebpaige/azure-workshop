@@ -17,17 +17,17 @@ For testing only: includes 1,000 API transactions and 2 API compute hours.
 
 ## Cognitive Services
 
-| API	| Description | Number of Transactions per Month |
-|---|---|
-| Academic Knowledge | | 	
-| Bing Autosuggest	| |
-| Bing Custom Search	| |
-| Bing Entity Search	| |
-| Bing Image Search	| |
-| Bing News Search	| |
-| Bing Speech	| |
-| Bing Spell Check | |	
-| Bing Video Search	| |
+ API	| Description | Number of Transactions per Month 
+---|---| -----
+ Academic Knowledge | | 	
+ Bing Autosuggest	| |
+ Bing Custom Search	| |
+ Bing Entity Search	| |
+ Bing Image Search	| |
+ Bing News Search	| |
+ Bing Speech	| |
+ Bing Spell Check | |	
+ Bing Video Search	| |
 	
 
 
