@@ -261,13 +261,55 @@ The Speech to Text API enables you to build smart apps that are voice triggered.
 
 -----------------
 
-##### Speaker Recognition API
-##### Custom Speech Service
+##### [Speaker Recognition API](https://azure.microsoft.com/en-us/services/cognitive-services/speaker-recognition/)
+Identify individual speakers or use speech as a means of authentication with the Speaker Recognition API.
+
+* [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/speaker-recognition/home/)
+* [SDK](https://azure.microsoft.com/en-us/tools/)
+* [API](https://westus.dev.cognitive.microsoft.com/docs/services/563309b6778daf02acc0a508)
+* [Portal](https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeakerRecognition)
+* [Quickstart](https://azure.microsoft.com/en-us/try/cognitive-services/?api=speaker-recognition-api)
 
 -----------------
 
-#### Search
+##### Custom Speech Service
+Overcome speech recognition barriers such as speaking style, vocabulary and background noise. Create custom language and acoustic models.
+
+* [Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-speech-service/cognitive-services-custom-speech-home)
+* [SDK](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-speech-service/customspeech-how-to-topics/cognitive-services-custom-speech-use-endpoint)
+* [Portal](https://portal.azure.com/#create/Microsoft.CognitiveServicesCustomSpeech)
+* [Quickstart](https://www.cris.ai/#)
+
+-----------------
+
+#### [Search](https://azure.microsoft.com/en-us/services/cognitive-services/directory/search/#search)
 Add Bing Search APIs to your apps and harness the ability to comb billions of webpages, images, videos, and news with a single API call.
+
+##### Bing Autosuggest API
+Empower users to type less and do more with automated and complete search suggestions.
+
+* [Documentation](https://aka.ms/AutoSuggestDocLP)
+* [API](https://dev.cognitive.microsoft.com/docs/services/644e01b5a68c4fdb93e1f49b4f5c4ce1/operations/56c769a2cf5ff801a090fbd2)
+* [Portal](https://portal.azure.com/#create/Microsoft.CognitiveServicesBingAutosuggest-v7)
+* [Quickstart](https://azure.microsoft.com/en-us/try/cognitive-services/?api=autosuggest-api)
+
+-----------------
+
+##### [Bing News Search API](https://azure.microsoft.com/en-us/services/cognitive-services/bing-news-search-api/)
+Turn any app or website into a news search resource with world news grouped and filtered by topic, local news, and searchable metadata.
+
+* [Documentation](https://aka.ms/NewSearchDocLP)
+* [API](https://dev.cognitive.microsoft.com/docs/services/e5e22123c5d24f1081f63af1548defa1/operations/56b449fbcf5ff81038d15cdf)
+* [Portal](https://portal.azure.com/#create/Microsoft.CognitiveServicesBingSearch-v7)
+* [Quickstart](https://azure.microsoft.com/en-us/try/cognitive-services/?api=bing-news-search-api)
+
+-----------------
+
+##### Bing Web Search API
+##### Bing Entity Search API
+##### Bing Image Search API
+##### Bing Video Search API
+##### Bing Custom Search API
 
 -----------------
 
