@@ -421,11 +421,27 @@ Incorporate gesture-based controls into your apps. Quickly define and implement 
 
 ----------------
 
-### Azure Notebooks
+### [Azure Notebooks](http://notebooks.azure.com)
 Free, interactive coding in the browser, powered by Jupyter Notebooks.
 
-* [Azure Notebooks](http://notebooks.azure.com)
-* [Python Data Science Handbook](https://notebooks.azure.com/jakevdp/libraries/PythonDataScienceHandbook)
+> * [Python Data Science Handbook](https://notebooks.azure.com/jakevdp/libraries/PythonDataScienceHandbook)
+> * [Introduction to R](http://notebooks.azure.com)
+> > Get a brief introduction to charting and graphing capabilities of R in the Jupyter notebook. You will learn how to make line charts, pie charts, and scatter plots.
+> * [Introduction to F#](https://notebooks.azure.com/#)
+> > Get a brief introduction to using F# in Jupyter Notebooks.
+> * [Discover Sentiment in Tweets](https://notebooks.azure.com/#)
+> > Notebooks can allow anyone with a social media account to gain a greater understanding about customers and communities by analyzing social feeds.
+> * [Introduction to Python](https://notebooks.azure.com/#)
+> > Learn the basics of Python 3 in Azure Notebooks. Learn Python syntax, standard data types, as well as how to write a simple program.
+> * [Getting to your data in Azure Notebooks](https://notebooks.azure.com/#)
+> > There are many ways to fetch your data within a Jupyter notebook. This sample aims to show you a few different ways of doing so.
+> * [Fundamentals of Data Science with Python](https://notebooks.azure.com/#)
+> > A core course in language fundamentals, data analysis, and machine learning from Microsoft's data scientists. Learn how to write basic programs in Python.
+> * [Predictive Maintenance in Manufacturing](https://notebooks.azure.com/#)
+> > Businesses are interested in predicting problems in advance so that they can proactively prevent them from impacting production and customers. This sample implements a predictive model for component failure.
+> * [Create and Deploy an Intelligent Cloud Service](https://notebooks.azure.com/#)
+> > Unlock the power in your data by training intelligent apps and services using Azure ML. This sample notebook uses research data to train a model to predict body temperatures of mammals in Wisconsin.
+> * [ENG101 from Cambridge University](https://notebooks.azure.com/garth-wells/libraries/CUED-IA-Computing-Michaelmas)
 
 -----------------
 
