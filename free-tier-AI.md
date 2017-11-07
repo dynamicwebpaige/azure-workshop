@@ -52,6 +52,17 @@ For testing only: includes 1,000 API transactions and 2 API compute hours.
 [Linguistic Analysis](https://azure.microsoft.com/en-us/services/cognitive-services/linguistic-analysis-api/) | Simplify complex language concepts and parse text. | Preview mode.
 [Translator Speech](https://azure.microsoft.com/en-us/services/cognitive-services/translator-speech-api/) | Real-time voice translation. | 10 hours
 
+## Cognitive Services Labs
+
+ API	| Description | Number of Transactions per Month 
+---|---| -----
+[Project Johannesburg](https://labs.cognitive.microsoft.com/en-us/project-johannesburg) | Calculate route logistics with deeper location intelligence to account for enterprise requirements, like weight, height, and hazardous materials. | 30,000; 1/second
+[Project Nanjing](https://labs.cognitive.microsoft.com/en-us/project-nanjing) | Calculate isochrones - time and distance-based recommendations for enterprise route optimization. | 10,000; 1/second
+[Project Wollongong](https://labs.cognitive.microsoft.com/en-us/project-wollongong) | Score the attractiveness of a location, based on how many of a particular amenity are within a specific distance. | 10,000; 1/second
+[Project Abu Dhabi](https://labs.cognitive.microsoft.com/en-us/project-abu-dhabi) | Create distance matrices, enabling you to calculate a histogram of travel times, and serve as stepping stone for enterprise route optimization. | 10,000; 1/second
+[Project Cuzco](https://labs.cognitive.microsoft.com/en-us/project-cuzco) | Find events associated with Wikipedia entities. Begin with a Wikipedia entity, and receive a list of related events organized by time. | 30,000; 1/second
+[Project Prague](https://labs.cognitive.microsoft.com/en-us/project-prague) | Incorporate gesture-based controls into your apps. Quickly define and implement customized hand gestures, creating a more natural user experience. | Experimental - see [GitHub repo](https://github.com/Microsoft/Gestures-Samples)
+
 ### [IoT Hub](https://azure.microsoft.com/en-us/services/iot-hub/)
 Up to 500 devices, with a limit of 8,000 messages per day.
 
