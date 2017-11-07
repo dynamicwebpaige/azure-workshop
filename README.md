@@ -1,3 +1,4 @@
+
 # Azure ML Studio Workshop Materials
 Collection of presentations related to [Azure ML Studio](https://studio.azureml.net/), a GUI-based integrated development environment for constructing and operationalizing Machine Learning workflows on Azure.  More presentations and use cases will be added in the following months -- stay tuned!
 
@@ -10,6 +11,7 @@ Collection of presentations related to [Azure ML Studio](https://studio.azureml.
 * **October 25-27** : Jazoon TechDays Autumn 2017
 * **November 7-9** : Developer Week Austin 2017
 * **November 13-15** : DevReach - Bulgaria 2017
+* **November 18-19** : PyTexas 2017
 * **November 17-21** : OpenCamps NYC 2017
 * **November 24-25** : CodeMotion Madrid 2017
 * **November 27-30** : PyData NYC 2017 
