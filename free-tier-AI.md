@@ -18,6 +18,12 @@ The free tier is intended to provide an in-depth introduction to the Azure Machi
 ### [Azure Machine Learning Studio – API Usage (New Web Service)](https://docs.microsoft.com/en-us/azure/machine-learning/studio/manage-new-webservice)
 For testing only: includes 1,000 API transactions and 2 API compute hours.
 
+### [Microsoft Cognitive Toolkit](https://github.com/Microsoft/CNTK)
+An open-source deep learning toolkit; free for always!
+
+### [mmlspark: Microsoft Machine Learning for Apache Spark](https://github.com/Azure/mmlspark)
+A collection of deep learning and data science tools for Apache Spark. Includes integration of Spark Machine Learning pipelines with Microsoft Cognitive Toolkit (CNTK) and OpenCV, enabling you to quickly create powerful, highly-scalable predictive and analytical models for large image and text datasets. Always free, forever open-source.
+
 ## Cognitive Services
 
  API	| Description | Number of Transactions per Month 
