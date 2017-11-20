@@ -407,7 +407,6 @@ Create distance matrices, enabling you to calculate a histogram of travel times,
 
 ##### [Project Cuzco](https://labs.cognitive.microsoft.com/en-us/project-cuzco)
 Find events associated with Wikipedia entities. Begin with a Wikipedia entity, and receive a list of related events organized by time. 
-
 * [Documentation](https://labs.cognitive.microsoft.com/en-us/Project-Cuzco/documentation/overview)
 * [API](https://dev.labs.cognitive.microsoft.com/docs/services/590bf0b54f545a0de4422d3b/operations/590bf0b64f545a06a4530029)
 
@@ -463,3 +462,4 @@ Python is fully supported in Visual Studio Code through extensions. Popular exte
 * [Learn Analytics @ Microsoft](https://learnanalytics.microsoft.com/home/training/)
 * [Data Science and AI Certification](https://learnanalytics.microsoft.com/home/certifications/)
 * [LinkedIn Learning](https://www.linkedin.com/learning/search?keywords=Algorithms)
+* [AI School](https://aischool.microsoft.com/learning-paths)
