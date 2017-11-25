@@ -19,7 +19,7 @@ The goal of the Microsoft Machine Learning Services is to provide an extensible,
 ---------
 
 ### Microsoft's Cognitive Toolkit (CNTK) 
-A free, easy-to-use, open-source, commercial-grade toolkit that trains deep learning algorithms to learn like the human brain.
+A free, easy-to-use, open-source, commercial-grade toolkit that trains deep learning algorithms to learn like the human brain. Coolest part (at least to me) - offers a Python API!
 
 * [Product Website](https://www.microsoft.com/en-us/cognitive-toolkit/)
 * [Code](https://github.com/Microsoft/CNTK)
