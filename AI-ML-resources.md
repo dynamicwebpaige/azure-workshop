@@ -9,6 +9,11 @@
 
 -------
 
+### Azure Databricks
+Fast, easy, and collaborative Apache Spark-based analytics platform. Accelerate innovation by enabling data science with a high-performance analytics platform that’s optimized for Azure.
+
+--------
+
 ### Microsoft Machine Learning Services
 The goal of the Microsoft Machine Learning Services is to provide an extensible, scalable platform for integrating machine learning tasks and tools with the applications that consume machine learning services. The platform must serve the needs of all users involved in the data development and analytics process, from data scientists, to architects and database adminstrators.
 
