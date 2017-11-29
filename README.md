@@ -1,4 +1,4 @@
-# Azure AI and Machine Learning Workshop Materials
+# Azure AI and Machine Learning Materials
 Collection of presentations and information resources related to Azure Machine Learning and the Azure AI offerings. Includes an in-depth 4-hour workshop for [Azure ML Studio](https://studio.azureml.net/), a GUI-based integrated development environment for constructing and operationalizing Machine Learning workflows on Azure.  More presentations and use cases will be added in the following months -- stay tuned!
 
 ### Workshops and Presentations
