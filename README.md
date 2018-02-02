@@ -14,6 +14,7 @@ Collection of presentations and information resources related to Azure Machine L
 * **November 17-21** : OpenCamps NYC 2017 (*Open-Source AI with Python and R*)
 * **November 24-25** : CodeMotion Madrid 2017 (*Top 10 Machine Learning Gotchas*)
 * **November 27-30** : PyData NYC 2017 
+* **February 1-2** : OpenHack - High Frequency Streaming Data 
 * **TBD**: 3-hour workshop using Spark Core, Azure ML Studio, and DHT11 sensors for time series anomaly detection.
 
 ### Additional Links
