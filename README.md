@@ -15,6 +15,7 @@ Collection of presentations and information resources related to Azure Machine L
 * **November 24-25** : CodeMotion Madrid 2017 (*Top 10 Machine Learning Gotchas*)
 * **November 27-30** : PyData NYC 2017 
 * **February 1-2** : OpenHack - High Frequency Streaming Data 
+* **February 22** : Microsoft Tech Summit - Frankfurt & Baden
 * **TBD**: 3-hour workshop using Spark Core, Azure ML Studio, and DHT11 sensors for time series anomaly detection.
 
 ### Additional Links
