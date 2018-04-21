@@ -74,6 +74,18 @@ Happy reading, folks. :)
 
 * [Code: The Hidden Language of Computer Hardware and Software](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319) by Petzold. 2000.
 
+* [Introduction to Data Mining](https://www.amazon.com/Introduction-Data-Mining-Pang-Ning-Tan/dp/0321321367) by Tan, Steinbach and Kumar. 2005.
+
+* [The C++ Programming Language](https://www.amazon.com/C-Programming-Language-4th/dp/0321563840/ref=sr_1_4?s=books&ie=UTF8&qid=1524320824&sr=1-4&keywords=c%2B%2B) by Stroustrup. 2013.
+
+* [Algorithm Design](https://www.amazon.com/Algorithm-Design-Kleinberg/dp/9332518645/ref=sr_1_1?s=books&ie=UTF8&qid=1524321063&sr=1-1&keywords=algorithm+design) by Kleinberg. 2013.
+
+* [Computer Organization and Design](https://www.amazon.com/Computer-Organization-Design-Fourth-Architecture/dp/0123747503/ref=sr_1_4?s=books&ie=UTF8&qid=1524321316&sr=1-4&keywords=computer+organization+and+design) by Patterson and Hennessy. 2011.
+
+* [Programming in C](https://www.amazon.com/Programming-C-4th-Developers-Library/dp/0321776410/ref=sr_1_2?ie=UTF8&qid=1524321519&sr=8-2&keywords=programming+in+c) by Kochan. 2014.
+
+* [Operating System Concepts](https://www.amazon.com/Operating-System-Concepts-Abraham-Silberschatz/dp/8126554274/ref=sr_1_1?ie=UTF8&qid=1524323570&sr=8-1&keywords=operating+systems+concepts) by Silberschatz. 2012.
+
 ### Electrical Engineering
 
 * [The Art of Electronics](https://www.amazon.com/Art-Electronics-Paul-Horowitz/dp/0521809266) by Horowitz and Hill. 2015.
@@ -114,6 +126,10 @@ Happy reading, folks. :)
 
 * [The Road to Reality: A Complete Guide to the Laws of the Universe](https://www.amazon.com/Road-Reality-Complete-Guide-Universe/dp/0679776311) by Penrose. 2007.
 
+* [Linear Algebra: A Modern Introduction](https://www.amazon.com/Linear-Algebra-Introduction-David-Poole/dp/1285463242/ref=sr_1_1?s=books&ie=UTF8&qid=1524322849&sr=1-1&keywords=linear+algebra+poole) by Poole. 2014.
+
+* [Essential Mathematics for Games and Interactive Applications](https://www.amazon.com/gp/product/1482250926/ref=as_li_tl?ie=UTF8&tag=theanimator-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1482250926&linkId=c34ae18e54c7d96ffcd7bf721cd044ed) by Van Verth and Bishop. 2015.
+
 ### Physics
 
 * [The Feynman Lectures on Physics](http://feynmanlectures.caltech.edu/) by the man himself. 
@@ -129,6 +145,8 @@ Happy reading, folks. :)
 ### Statistics
 
 * [Statistical Rethinking: A Bayesian Course with Examples in R and Stan](https://www.amazon.com/Statistical-Rethinking-Bayesian-Examples-Chapman/dp/1482253445) by McElreath. 2015.
+
+* [Probability and Statistics for Engineering and the Sciences](https://www.amazon.com/Probability-Statistics-Engineering-Sciences-Devore/dp/0538733527/ref=sr_1_3?s=books&ie=UTF8&qid=1524322740&sr=1-3&keywords=probability+and+statistics+for+engineering+and+the+sciences) by Devore. 2011.
 
 ### Chemistry
 
@@ -158,6 +176,8 @@ Happy reading, folks. :)
 
 * [Dynamic Hedging: Managing Vanilla and Exotic Options](https://www.amazon.com/Dynamic-Hedging-Managing-Vanilla-Options/dp/0471152803) by Nassim Taleb. 1997.
 
+* [Principles of Microeconomics](https://openstax.org/details/books/principles-microeconomics) by Greenlaw and Taylor. 2014.
+
 ### History
 
 * [The Western Heritage Since 1300, AP Edition](https://www.amazon.com/Western-Heritage-Since-1300-AP/dp/0131732927) by Kagan, Ozmet, and Turner. 2006.
@@ -182,12 +202,26 @@ Happy reading, folks. :)
 
 * [Zen and the Art of Motorcycle Maintenance](https://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0060589469) by Pirsig. 2006.
 
+* [Reason and Responsibility](https://www.amazon.com/Reason-Responsibility-Readings-Problems-Philosophy/dp/1133608477/ref=sr_1_1?s=books&ie=UTF8&qid=1524321943&sr=1-1&keywords=reason+and+responsibility) by Feinberg and Shafer-Landau. 2013.
+
+* [What's Wrong?: Applied Ethicists and Their Critics](https://www.amazon.com/Whats-Wrong-Applied-Ethicists-Critics/dp/0195337808/ref=sr_1_1?s=books&ie=UTF8&qid=1524323449&sr=1-1&keywords=what%27s+wrong) by Boonin and Oddie. 2009.
+
 ### Systems Engineering and Industrial Design
 
 * [The Design of Everyday Things](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654) by Norman. 2013.
 
 * [Thinking in Systems: A Primer](https://www.amazon.com/Thinking-Systems-Donella-H-Meadows/dp/1603580557) by Meadows. 2008.
 
+### Psychology
+
+* [Psychology](https://www.amazon.com/Psychology-paperback-4th-Saundra-Ciccarelli/dp/0205973361/ref=sr_1_2?s=books&ie=UTF8&qid=1524322620&sr=1-2&keywords=psychology+ciccarelli) by Ciccarelli and White. 2014.
+
+* [Abnormal Psychology](https://www.amazon.com/Abnormal-Psychology-Ronald-J-Comer/dp/146417170X/ref=pd_sbs_14_1?_encoding=UTF8&pd_rd_i=146417170X&pd_rd_r=G1EKNGXZP3Y8CPCHJAG1&pd_rd_w=jwCBI&pd_rd_wg=h3WjF&psc=1&refRID=G1EKNGXZP3Y8CPCHJAG1) by Comer. 2015.
+
 ### Other
 
 * [Hypnosis: The Application of Ideomotor Techniques](https://www.amazon.com/Hypnosis-Application-David-M-D-Cheek/dp/0205155952) by Cheek. 1993.
+
+* [By the People](https://www.amazon.com/People-Debating-American-Government-Brief/dp/0190298898/ref=sr_1_1?s=books&ie=UTF8&qid=1524323063&sr=1-1&keywords=by+the+people) by Morone and Kersh. 2016.
+
+* [Criminal Justice Today: An Introductory Text for the 21st Century](https://www.amazon.com/Criminal-Justice-Today-Introductory-Century/dp/0134145593/ref=sr_1_1?s=books&ie=UTF8&qid=1524323144&sr=1-1&keywords=criminal+justice+today) by Schmalleger. 2016.
