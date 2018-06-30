@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>Interactive Search</title>
+
+    <link rel="stylesheet" href="https://atlas.microsoft.com/sdk/css/atlas.min.css?api-version=1.0" type="text/css" />
+    <script src="https://atlas.microsoft.com/sdk/js/atlas.min.js?api-version=1.0"></script>
+
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+
+        #search {
+            position: absolute;
+            z-index: 1;
+            left: 0px;
+            top: 0px;
+            width: 400px;
+            box-shadow: 0px 24px 74px 0px rgba(0, 0, 0, .32);
+            border: 1px solid #ccc;
+            overflow-y: hidden;
+        }
+
+        #search>.search-input-box {
+            background: #fff;
+            height: 72px;
+            width: 100%;
+        }
+
+        #search>.search-input-box>.search-input-group {
+            position: relative;
+            top: 20px;
+            left: 20px;
+            width: 358px;
+            height: 30px;
+            margin: 0;
+            padding: 0;
+            border: 1px dotted #ccc;
+        }
+
+        #search>.search-input-box>.search-input-group>.search-icon {
+            margin: 0;
+            padding: 0;
+            background-size: 20px 20px;
+            width: 30px;
+            height: 30px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ctitle%3E-%3C/title%3E%3Cpath d='M10.5,0a5.4457,5.4457,0,0,1,2.7734.75A5.6134,5.6134,0,0,1,15.25,2.7266a5.5224,5.5224,0,0,1,.5547,4.2344A5.4147,5.4147,0,0,1,15.25,8.2734,5.6134,5.6134,0,0,1,13.2734,10.25a5.5014,5.5014,0,0,1-4.6445.4219,5.6256,5.6256,0,0,1-1.6445-.9453L.8516,15.8516A.4807.4807,0,0,1,.5,16a.4823.4823,0,0,1-.3516-.1484.4905.4905,0,0,1,0-.7031l6.125-6.1328a5.6194,5.6194,0,0,1-.9453-1.6445A5.39,5.39,0,0,1,5,5.5a5.4457,5.4457,0,0,1,.75-2.7734A5.6134,5.6134,0,0,1,7.7266.75,5.4457,5.4457,0,0,1,10.5,0Zm0,10a4.347,4.347,0,0,0,1.75-.3555A4.5254,4.5254,0,0,0,14.6445,7.25,4.347,4.347,0,0,0,15,5.5a4.347,4.347,0,0,0-.3555-1.75A4.5254,4.5254,0,0,0,12.25,1.3555a4.4854,4.4854,0,0,0-3.5,0A4.5254,4.5254,0,0,0,6.3555,3.75a4.4854,4.4854,0,0,0,0,3.5A4.5254,4.5254,0,0,0,8.75,9.6445,4.3487,4.3487,0,0,0,10.5,10Z' fill='%234b4b4b'/%3E%3C/svg%3E");
+        }
+
+        #search>.search-input-box>.search-input-group>input {
+            display: inline-block;
+            position: absolute;
+            top: 0px;
+            left: 30px;
+            width: calc(100% - 40px);
+            height: 100%;
+            margin: 0;
+            padding: 0 5px;
+            border-collapse: collapse;
+            border: 0px;
+        }
+
+        #search>.search-input-box>.search-input-group>input:focus {
+            outline: none;
+        }
+
+        #search-info {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            list-style: none;
+            overflow-y: auto;
+            max-height: calc(100vh - 119px);
+        }
+
+        #search-info>li {
+            border-top: 1px dotted #ccc;
+            padding: 10px 20px;
+        }
+
+        #search-info>li:hover {
+            background-color: #f1f2f2;
+            cursor: pointer;
+        }
+
+        #search-info>li>.title {
+            font-size: 12pt;
+            line-height: 14pt;
+            width: 100%;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            color: #231f20;
+        }
+
+        #search-info>li>.info {
+            width: 100%;
+            font-size: 12pt;
+            line-height: 14pt;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            color: #231f20;
+        }
+
+        .poi-content-box {
+            width: 140px;
+            padding: 0;
+            margin: 0;
+        }
+
+        .poi-title-box {
+            background-color: #153C64;
+            width: calc(100% - 16px);
+            height: 23px;
+            padding: 8px;
+            color: #fff;
+            font-size: 12px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        .poi-info-box {
+            width: calc(100% - 16px);
+            height: calc(100% - 39px);
+            padding: 8px;
+        }
+
+        .poi-info-box .info {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: block;
+            background-repeat: no-repeat;
+            background-position: left;
+            padding-left: 15px;
+            background-size: 10px 10px;
+            width: calc(100% - 15px);
+        }
+
+        .info.phone {
+            background-image: url("data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNS45NzQ2IDI2Ij48dGl0bGU+cG9pPC90aXRsZT48cGF0aCBkPSJNMjAuMzkxNCwxNS4zOTk0YTIuODE0MSwyLjgxNDEsMCwwLDEsMS4wNzIyLjIwOTUsMi43MjQzLDIuNzI0MywwLDAsMSwuOTA3My42MDNsMi43OTE2LDIuNzkzYTIuNzI1OCwyLjcyNTgsMCwwLDEsLjYwMjcuOTA3NywyLjg1MjksMi44NTI5LDAsMCwxLDAsMi4xNDU1LDIuNzI1OCwyLjcyNTgsMCwwLDEtLjYwMjcuOTA3N3EtLjcyMzMuNzM2My0xLjMyLDEuMzAxM2E3LjQwNDMsNy40MDQzLDAsMCwxLTEuMjMwOC45NTIxLDUuMDk1LDUuMDk1LDAsMCwxLTEuNDA4NS41ODRBNy42NjM4LDcuNjYzOCwwLDAsMSwxOS4zMzgyLDI2YTExLjQ3NywxMS40NzcsMCwwLDEtMy4yNjExLS40OTUxLDE4LjA4ODIsMTguMDg4MiwwLDAsMS0zLjMzMDktMS4zNzExLDIzLjg4LDIzLjg4LDAsMCwxLTMuMjQ4NC0yLjA4MkEyOC4xNTgsMjguMTU4LDAsMCwxLDYuNDksMTkuNDE3NSwyOC44OTc1LDI4Ljg5NzUsMCwwLDEsMy44ODI5LDE2LjM5NmEyMy42NzQ3LDIzLjY3NDcsMCwwLDEtMi4wNTU2LTMuMjVBMTguMjMyNywxOC4yMzI3LDAsMCwxLC40ODIyLDkuODM4OSwxMS4zODY0LDExLjM4NjQsMCwwLDEsMCw2LjY0LDcuNTk1Niw3LjU5NTYsMCwwLDEsLjE5NjcsNC43OCw1LjIxLDUuMjEsMCwwLDEsLjc4LDMuMzcwNmE3LjA3NSw3LjA3NSwwLDAsMSwuOTUxNy0xLjIzMTRxLjU2NDctLjU5LDEuMzAwNi0xLjMxNEEyLjgyNywyLjgyNywwLDAsMSwzLjkzMzYuMjE1OGEyLjc4NzIsMi43ODcyLDAsMCwxLDIuMTUwOCwwLDIuODA3OSwyLjgwNzksMCwwLDEsLjkwNzMuNjA5NGwyLjc5MTYsMi43OTNhMi43MjU4LDIuNzI1OCwwLDAsMSwuNjAyNy45MDc3LDIuODE3OSwyLjgxNzksMCwwLDEsLjIwOTQsMS4wNzI4LDIuNDc4LDIuNDc4LDAsMCwxLS4xOS45OTY2LDMuNjAxNiwzLjYwMTYsMCwwLDEtLjQ2OTUuNzkzNSw0LjY5NzksNC42OTc5LDAsMCwxLS42MTU0LjY0NzVxLS4zMzYzLjI5Mi0uNjE1NC41NzEzYTMuNzMyNCwzLjczMjQsMCwwLDAtLjQ2OTUuNTY0OSwxLjA4OTQsMS4wODk0LDAsMCwwLS4xOS42MTU3LDEuMTI1MiwxLjEyNTIsMCwwLDAsLjM0MjYuODI1Mmw2Ljk5MTcsNi45OTUxYTEuMTI0MSwxLjEyNDEsMCwwLDAsLjgyNDguMzQyOCwxLjA4ODEsMS4wODgxLDAsMCwwLC42MTU0LS4xOSwzLjczMTMsMy43MzEzLDAsMCwwLC41NjQ3LS40N3EuMjc5Mi0uMjc5My41NzEtLjYxNTdhNC42OTc1LDQuNjk3NSwwLDAsMSwuNjQ3MS0uNjE1NywzLjU5OTEsMy41OTkxLDAsMCwxLC43OTMxLS40NywyLjQ3NDcsMi40NzQ3LDAsMCwxLC45OTYxLS4xOU0xOS4zMzgyLDI0LjM3NWE1Ljc5NDIsNS43OTQyLDAsMCwwLDEuNTI5LS4xNzE0LDMuOTQ3OCwzLjk0NzgsMCwwLDAsMS4xMS0uNDk1MSw1LjczNDEsNS43MzQxLDAsMCwwLC45NjQ0LS44MDYycS40Njk1LS40ODI0LDEuMDc4Ni0xLjA5MThhMS4xMjUyLDEuMTI1MiwwLDAsMCwuMzQyNi0uODI1MiwxLjEwNDUsMS4xMDQ1LDAsMCwwLS4xODQtLjU0LDQuNzY0OSw0Ljc2NDksMCwwLDAtLjQ3NTgtLjY1MzhxLS4yOTE5LS4zNDI4LS42NTM1LS43MDQ2dC0uNzEwNi0uNjg1NXEtLjM0OS0uMzIzNy0uNjQ3MS0uNTk2N3QtLjQ2MzItLjQzOGExLjEzODksMS4xMzg5LDAsMCwwLS44Mzc1LS4zNDI4LDEuMDU4NywxLjA1ODcsMCwwLDAtLjYwOTEuMTksMy45MTY4LDMuOTE2OCwwLDAsMC0uNTU4My40N3EtLjI3OTIuMjc5My0uNTc3NC42MTU3YTUuMDAyNiw1LjAwMjYsMCwwLDEtLjY1MzUuNjE1NywzLjU5OTEsMy41OTkxLDAsMCwxLS43OTMxLjQ3LDIuNDc0NywyLjQ3NDcsMCwwLDEtLjk5NjEuMTksMi44MTQxLDIuODE0MSwwLDAsMS0xLjA3MjItLjIwOTUsMi43MjQzLDIuNzI0MywwLDAsMS0uOTA3My0uNjAzTDcuMjMyOCwxMS43Njg2YTIuNzI1OCwyLjcyNTgsMCwwLDEtLjYwMjctLjkwNzcsMi44MTc5LDIuODE3OSwwLDAsMS0uMjA5NC0xLjA3MjgsMi40NzgsMi40NzgsMCwwLDEsLjE5LS45OTY2LDMuNjAxNiwzLjYwMTYsMCwwLDEsLjQ2OTUtLjc5MzUsNS4wMDMsNS4wMDMsMCwwLDEsLjYxNTQtLjY1MzhxLjMzNjMtLjI5ODMuNjE1NC0uNTc3NmEzLjkxNzgsMy45MTc4LDAsMCwwLC40Njk1LS41NTg2LDEuMDYsMS4wNiwwLDAsMCwuMTktLjYwOTQsMS4xNCwxLjE0LDAsMCwwLS4zNDI2LS44Mzc5cS0uMTY1LS4xNjUtLjQzNzgtLjQ2MzRUNy41OTQ0LDMuNjVxLS4zMjM2LS4zNDkxLS42ODUyLS43MTA5VDYuMjA1LDIuMjg1MmE0Ljc2MjcsNC43NjI3LDAsMCwwLS42NTM1LS40NzYxLDEuMTAzMiwxLjEwMzIsMCwwLDAtLjUzOTMtLjE4NDEsMS4xMjQxLDEuMTI0MSwwLDAsMC0uODI0OC4zNDI4cS0uNjA5MS42MDk0LTEuMDg0OSwxLjA3OTFhNi40NjgzLDYuNDY4MywwLDAsMC0uODEyMS45NjQ4LDMuNzUsMy43NSwwLDAsMC0uNTA3NiwxLjExMDhBNS43NDQyLDUuNzQ0MiwwLDAsMCwxLjYxMTUsNi42NGE5Ljk4MzQsOS45ODM0LDAsMCwwLC40NjMyLDIuOTMyNiwxNi41LDE2LjUsMCwwLDAsMS4yODE2LDMuMDIxNSwyMy4wMTM3LDIzLjAxMzcsMCwwLDAsMS45MzUxLDIuOTc3MSwyNi41MjI5LDI2LjUyMjksMCwwLDAsMi40MzYzLDIuNzczOSwyNy4yODMyLDI3LjI4MzIsMCwwLDAsMi43ODUzLDIuNDEyMSwyMi45ODcsMjIuOTg3LDAsMCwwLDIuOTY5MywxLjkxMDYsMTYuMzY2MSwxNi4zNjYxLDAsMCwwLDIuOTk0NiwxLjI1NjhBOS44ODEsOS44ODEsMCwwLDAsMTkuMzM4MiwyNC4zNzVaIiBmaWxsPSIjNjY2NzY3Ii8+PC9zdmc+");
+        }
+
+        .info.website {
+            background-image: url("data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNyAyNyI+PHRpdGxlPnBvaTwvdGl0bGU+PHBhdGggZD0iTTEzLjUsMGExMy4yOTc4LDEzLjI5NzgsMCwwLDEsMy41ODU5LjQ4MTIsMTMuNjUyNCwxMy42NTI0LDAsMCwxLDMuMjMsMS4zNTc5LDEzLjQ3NDMsMTMuNDc0MywwLDAsMSw0Ljg0NSw0Ljg0NSwxMy42NTI0LDEzLjY1MjQsMCwwLDEsMS4zNTc5LDMuMjMsMTMuNjAxOSwxMy42MDE5LDAsMCwxLDAsNy4xNzE5LDEzLjY1MjQsMTMuNjUyNCwwLDAsMS0xLjM1NzksMy4yMywxMy40NzQzLDEzLjQ3NDMsMCwwLDEtNC44NDUsNC44NDUsMTMuNjUyNCwxMy42NTI0LDAsMCwxLTMuMjMsMS4zNTc5LDEzLjYwMTksMTMuNjAxOSwwLDAsMS03LjE3MTksMCwxMy42NTI0LDEzLjY1MjQsMCwwLDEtMy4yMy0xLjM1NzksMTMuNDc0MywxMy40NzQzLDAsMCwxLTQuODQ1LTQuODQ1QTEzLjY4MTIsMTMuNjgxMiwwLDAsMSwuNDgxMiwxNy4wOTI1YTEzLjYyNjUsMTMuNjI2NSwwLDAsMSwwLTcuMTc4NSwxMy42NTI0LDEzLjY1MjQsMCwwLDEsMS4zNTc5LTMuMjMsMTMuNDc0MywxMy40NzQzLDAsMCwxLDQuODQ1LTQuODQ1QTEzLjY4MTIsMTMuNjgxMiwwLDAsMSw5LjkwNzUuNDgxMiwxMy4yNzU1LDEzLjI3NTUsMCwwLDEsMTMuNSwwTTI0LjE2NTUsOC40Mzc1YTExLjI2NzgsMTEuMjY3OCwwLDAsMC0xLjIxMjktMi4wMSwxMi4wMDg0LDEyLjAwODQsMCwwLDAtMS41ODItMS43MiwxMi4yNCwxMi4yNCwwLDAsMC0xLjg4NTMtMS4zODQzLDExLjM1MjYsMTEuMzUyNiwwLDAsMC0yLjEyMjYtLjk4ODhBMTEuMjA5NCwxMS4yMDk0LDAsMCwxLDE4LjIyLDMuNzMxYTE0LjMzMTYsMTQuMzMxNiwwLDAsMSwuNjc5LDEuNTIyNywxNS44Nzc1LDE1Ljg3NzUsMCwwLDEsLjUwNzYsMS41ODg2cS4yMTA5LjgwNDIuMzY5MSwxLjU5NTJoNC4zOU0yNS4zMTI1LDEzLjVhMTEuNjUyNSwxMS42NTI1LDAsMCwwLS40ODc4LTMuMzc1SDIwLjAzOTFxLjEwNTUuODQzNy4xNTgyLDEuNjgwOVQyMC4yNSwxMy41cTAsLjg1NjktLjA1MjcsMS42OTQxdC0uMTU4MiwxLjY4MDloNC43ODU2YTExLjY1MjUsMTEuNjUyNSwwLDAsMCwuNDg3OC0zLjM3NU0xMy41LDI1LjMxMjVhMi4yMDg2LDIuMjA4NiwwLDAsMCwxLjIwNjMtLjM1Niw0LjM3Niw0LjM3NiwwLDAsMCwxLjAzNDktLjkzNiw3LjQwMjUsNy40MDI1LDAsMCwwLC44NS0xLjMxMTgsMTUuMzI3MiwxNS4zMjcyLDAsMCwwLC42NjU4LTEuNDgzMnEuMjktLjc1MTUuNDg3OC0xLjQ1dC4zMDMyLTEuMjEyOUg4Ljk1MTdxLjEwNTUuNTE0Mi4zMDMyLDEuMjEyOXQuNDg3OCwxLjQ1YTE1LjMyNzQsMTUuMzI3NCwwLDAsMCwuNjY1OCwxLjQ4MzIsNy40MDI1LDcuNDAyNSwwLDAsMCwuODUsMS4zMTE4LDQuMzc2MSw0LjM3NjEsMCwwLDAsMS4wMzQ5LjkzNiwyLjIwODYsMi4yMDg2LDAsMCwwLDEuMjA2My4zNTZtNC44Mzg0LTguNDM3NXEuMTA1NS0uODQzOC4xNjQ4LTEuNjgwOVQxOC41NjI1LDEzLjVxMC0uODU2OS0uMDU5My0xLjY5NDF0LS4xNjQ4LTEuNjgwOUg4LjY2MTZxLS4xMDU1Ljg0MzctLjE2NDgsMS42ODA5VDguNDM3NSwxMy41cTAsLjg1NjkuMDU5MywxLjY5NDF0LjE2NDgsMS42ODA5aDkuNjc2OE0xLjY4NzUsMTMuNWExMS42NTI1LDExLjY1MjUsMCwwLDAsLjQ4NzgsMy4zNzVINi45NjA5cS0uMTA1NS0uODQzOC0uMTU4Mi0xLjY4MDlUNi43NSwxMy41cTAtLjg1NjkuMDUyNy0xLjY5NDF0LjE1ODItMS42ODA5SDIuMTc1M0ExMS42NTI1LDExLjY1MjUsMCwwLDAsMS42ODc1LDEzLjVNMTMuNSwxLjY4NzVhMi4yMDg2LDIuMjA4NiwwLDAsMC0xLjIwNjMuMzU2LDQuMzc2LDQuMzc2LDAsMCwwLTEuMDM0OS45MzYsNy40MDI1LDcuNDAyNSwwLDAsMC0uODUsMS4zMTE4LDE1LjMyNzQsMTUuMzI3NCwwLDAsMC0uNjY1OCwxLjQ4MzJxLS4yOS43NTE1LS40ODc4LDEuNDVUOC45NTE3LDguNDM3NWg5LjA5NjdxLS4xMDU1LS41MTQyLS4zMDMyLTEuMjEyOXQtLjQ4NzgtMS40NWExNS4zMjcyLDE1LjMyNzIsMCwwLDAtLjY2NTgtMS40ODMyLDcuNDAyNSw3LjQwMjUsMCwwLDAtLjg1LTEuMzExOCw0LjM3Niw0LjM3NiwwLDAsMC0xLjAzNDktLjkzNkEyLjIwODYsMi4yMDg2LDAsMCwwLDEzLjUsMS42ODc1bS0zLjg2MjguNjQ2YTExLjM1MjYsMTEuMzUyNiwwLDAsMC0yLjEyMjYuOTg4OEExMi4yNCwxMi4yNCwwLDAsMCw1LjYyOTQsNC43MDY1YTEyLjAwODQsMTIuMDA4NCwwLDAsMC0xLjU4MiwxLjcyLDExLjI2NzgsMTEuMjY3OCwwLDAsMC0xLjIxMjksMi4wMWg0LjM5cS4xNTgyLS43OTEuMzY5MS0xLjU5NTJhMTUuODc3OCwxNS44Nzc4LDAsMCwxLC41MDc2LTEuNTg4NkExNC4zMzE3LDE0LjMzMTcsMCwwLDEsOC43OCwzLjczMWExMS4yMDkzLDExLjIwOTMsMCwwLDEsLjg1NjktMS4zOTc1TTIuODM0NSwxOC41NjI1YTExLjI2NzgsMTEuMjY3OCwwLDAsMCwxLjIxMjksMi4wMSwxMi4wMDgzLDEyLjAwODMsMCwwLDAsMS41ODIsMS43MiwxMi4yNCwxMi4yNCwwLDAsMCwxLjg4NTMsMS4zODQzLDExLjM1MjUsMTEuMzUyNSwwLDAsMCwyLjEyMjYuOTg4OEExMS4yMDkzLDExLjIwOTMsMCwwLDEsOC43OCwyMy4yNjlhMTQuMzMxNywxNC4zMzE3LDAsMCwxLS42NzktMS41MjI3LDE1Ljg3NzgsMTUuODc3OCwwLDAsMS0uNTA3Ni0xLjU4ODZxLS4yMTA5LS44MDQyLS4zNjkxLTEuNTk1MmgtNC4zOW0xNC41MjgzLDYuMTA0YTExLjM1MjYsMTEuMzUyNiwwLDAsMCwyLjEyMjYtLjk4ODgsMTIuMjQsMTIuMjQsMCwwLDAsMS44ODUzLTEuMzg0MywxMi4wMDgzLDEyLjAwODMsMCwwLDAsMS41ODItMS43MiwxMS4yNjc5LDExLjI2NzksMCwwLDAsMS4yMTI5LTIuMDFoLTQuMzlxLS4xNTgyLjc5MS0uMzY5MSwxLjU5NTJhMTUuODc3NSwxNS44Nzc1LDAsMCwxLS41MDc2LDEuNTg4NiwxNC4zMzE1LDE0LjMzMTUsMCwwLDEtLjY3OSwxLjUyMjdBMTEuMjA5NCwxMS4yMDk0LDAsMCwxLDE3LjM2MjgsMjQuNjY2NVoiIGZpbGw9IiM2NjY3NjciLz48L3N2Zz4=");
+        }
+
+        .info.location {
+            background-image: url("data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNyAzNiI+PHRpdGxlPnBvaTwvdGl0bGU+PHBhdGggZD0iTTEzLjUsMGExMy4zNywxMy4zNywwLDAsMSwzLjU4NTkuNDc5MiwxMy43ODY2LDEzLjc4NjYsMCwwLDEsMy4yMjczLDEuMzQzOCwxMy4zMzg2LDEzLjMzODYsMCwwLDEsNi4yMDE2LDcuOTY4N0ExMi45MDA5LDEyLjkwMDksMCwwLDEsMjcsMTMuMzMzM2ExMC41NjY0LDEwLjU2NjQsMCwwLDEtLjM0OCwyLjc0LDEzLjQwNTEsMTMuNDA1MSwwLDAsMS0xLjAwMiwyLjU5MzhMMTMuNSwzNiwxLjM1LDE4LjY2NjdBMTMuNDA1LDEzLjQwNSwwLDAsMSwuMzQ4LDE2LjA3MjksMTAuNTY2NCwxMC41NjY0LDAsMCwxLDAsMTMuMzMzMywxMi45MDA5LDEyLjkwMDksMCwwLDEsLjQ4NTIsOS43OTE3LDEzLjQzNDYsMTMuNDM0NiwwLDAsMSwxLjg0NTcsNi42MDQyYTEzLjQ1MywxMy40NTMsMCwwLDEsNC44NDEtNC43ODEyQTEzLjc4NjUsMTMuNzg2NSwwLDAsMSw5LjkxNDEuNDc5MiwxMy4zNywxMy4zNywwLDAsMSwxMy41LDBNMjMuNTQwNiwxNy42MjVxMC0uMDIwOC4wMTA1LS4wMjA4dC4wMTA1LS4wMjA4YTguOTgsOC45OCwwLDAsMCwuODAxNi0yLjA2MjUsOC44ODE2LDguODgxNiwwLDAsMCwuMjc0Mi0yLjE4NzUsMTAuNTMzNywxMC41MzM3LDAsMCwwLS44NzU0LTQuMjcwOCwxMS4xNTYxLDExLjE1NjEsMCwwLDAtMi4zOTQxLTMuNSwxMS4zMSwxMS4zMSwwLDAsMC0zLjU0MzctMi4zNjQ2QTEwLjg5NjEsMTAuODk2MSwwLDAsMCwxMy41LDIuMzMzM2ExMC44OTYxLDEwLjg5NjEsMCwwLDAtNC4zMjQyLjg2NDZBMTEuMzEsMTEuMzEsMCwwLDAsNS42MzIsNS41NjI1YTExLjE1NjEsMTEuMTU2MSwwLDAsMC0yLjM5NDEsMy41LDEwLjUzMzcsMTAuNTMzNywwLDAsMC0uODc1NCw0LjI3MDgsOC44ODE1LDguODgxNSwwLDAsMCwuMjc0MiwyLjE4NzUsOC45OCw4Ljk4LDAsMCwwLC44MDE2LDIuMDYyNXEwLC4wMjA4LjAxMDUuMDIwOHQuMDEwNS4wMjA4TDEzLjUsMzAuNzkxNywyMy41NDA2LDE3LjYyNU0xMy41LDUuNWE3LjgxMjIsNy44MTIyLDAsMCwxLDMuMDkuNjE0Niw4LjAwOTMsOC4wMDkzLDAsMCwxLDIuNTIwNywxLjY3NzEsNy45LDcuOSwwLDAsMSwxLjY5OCwyLjQ5LDcuNzk2LDcuNzk2LDAsMCwxLDAsNi4xMDQyLDcuOSw3LjksMCwwLDEtMS42OTgsMi40OUE4LjAwOTMsOC4wMDkzLDAsMCwxLDE2LjU5LDIwLjU1MjFhOC4wNzY0LDguMDc2NCwwLDAsMS02LjE4LDBBOC4wMDkyLDguMDA5MiwwLDAsMSw3Ljg4OTEsMTguODc1YTcuOSw3LjksMCwwLDEtMS42OTgtMi40OSw3Ljc5Niw3Ljc5NiwwLDAsMSwwLTYuMTA0Miw3LjksNy45LDAsMCwxLDEuNjk4LTIuNDlBOC4wMDkyLDguMDA5MiwwLDAsMSwxMC40MSw2LjExNDYsNy44MTIzLDcuODEyMywwLDAsMSwxMy41LDUuNW0wLDEzLjMzMzNhNS41NDA3LDUuNTQwNywwLDAsMCw1LjEzNjMtMy4zNTQyLDUuNTQsNS41NCwwLDAsMCwwLTQuMjkxNyw1LjUwNTQsNS41MDU0LDAsMCwwLTEuMTkxOC0xLjc1LDUuNjI4OSw1LjYyODksMCwwLDAtNy44ODkxLDAsNS41MDU0LDUuNTA1NCwwLDAsMC0xLjE5MTgsMS43NSw1LjU0LDUuNTQsMCwwLDAsMCw0LjI5MTcsNS41MDU0LDUuNTA1NCwwLDAsMCwxLjE5MTgsMS43NUE1LjU2OTQsNS41Njk0LDAsMCwwLDEzLjUsMTguODMzM1oiIGZpbGw9IiM2NzY4NjciLz48L3N2Zz4=");
+        }
+
+        .zoom {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            color: #231f20;
+            box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.3);
+            user-select: none;
+            background-color: #fff;
+        }
+
+        #zoom-plus {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        #zoom-minus {
+            position: absolute;
+            top: 60px;
+            right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="search">
+        <div class="search-input-box">
+            <div class="search-input-group">
+                <div class="search-icon" type="button"></div>
+                <input id="search-input" type="text" placeholder="Search">
+            </div>
+        </div>
+        <ul id="search-info"></ul>
+    </div>
+
+    <div id="map"></div>
+
+    <script>
+        var subscriptionKey = "INSERT YOUR KEY HERE";
+        var map = new atlas.Map("map", {
+            "subscription-key": subscriptionKey,
+            center: [-118.270293, 34.039737],
+            zoom: 14
+        });
+
+        /* Search Info Panel */
+        var searchInfoPanelBody = document.getElementById("search-info");
+
+        /* Search */
+        var searchLayerName = "search-pins";
+        var searchPins = [];
+        var searchPopup = new atlas.Popup();
+        map.addPins(searchPins, {
+            name: searchLayerName,
+            cluster: false,
+            icon: "pin-round-darkblue"
+        });
+
+
+        function boundingBoxOfPositions(positions) {
+            var swLon = 180;
+            var swLat = 90;
+            var neLon = -180;
+            var neLat = -90;
+
+            for (i = 0; i < positions.length; i++) {
+                var position = positions[i];
+
+                if (position[0] < swLon) {
+                    swLon = position[0];
+                }
+
+                if (position[1] < swLat) {
+                    swLat = position[1];
+                }
+
+                if (position[0] > neLon) {
+                    neLon = position[0];
+                }
+
+                if (position[1] > neLat) {
+                    neLat = position[1];
+                }
+            }
+
+            return [swLon, swLat, neLon, neLat];
+        }
+
+        function buildPoiPopupContent(poiProperties) {
+            var poiTitleBox = document.createElement("div");
+            poiTitleBox.classList.add("poi-title-box", "font-segoeui-b");
+            poiTitleBox.innerText = poiProperties.name || poiProperties.address;
+
+            var poiInfoBox = document.createElement("div");
+            poiInfoBox.classList.add("poi-info-box", "font-segoeui");
+
+            if (poiProperties.address) {
+                var poiAddressInfo = document.createElement("div");
+                poiAddressInfo.classList.add("info", "location");
+
+                poiAddressInfo.innerText = poiProperties.address;
+
+                poiInfoBox.appendChild(poiAddressInfo);
+            }
+
+            if (poiProperties.phone) {
+                var poiPhoneInfo = document.createElement("div");
+                poiPhoneInfo.classList.add("info", "phone");
+
+                poiPhoneInfo.innerText = poiProperties.phone;
+
+                poiInfoBox.appendChild(poiPhoneInfo);
+            }
+
+            if (poiProperties.url) {
+                var linkElement = document.createElement("a");
+                linkElement.classList.add("info", "website");
+
+                linkElement.href = "http://" + poiProperties.url;
+                linkElement.innerText = poiProperties.url;
+
+                var poiUrlInfo = document.createElement("div");
+                poiUrlInfo.appendChild(linkElement);
+
+                poiInfoBox.appendChild(poiUrlInfo);
+            }
+
+            var poiContentBox = document.createElement("div");
+            poiContentBox.classList.add("poi-content-box");
+            poiContentBox.appendChild(poiTitleBox);
+            poiContentBox.appendChild(poiInfoBox);
+
+            return poiContentBox;
+        }
+
+        map.addEventListener("click", searchLayerName, function (event) {
+            var pin = event.features[0];
+
+            searchPopup.setPopupOptions({
+                position: pin.geometry.coordinates,
+                content: buildPoiPopupContent({
+                    name: pin.properties.name,
+                    address: pin.properties.address,
+                    phone: pin.properties.phone,
+                    url: pin.properties.url
+                })
+            });
+
+            searchPopup.open(map);
+        });
+
+        var shouldChangeCamera = false;
+        function searchResultsHandler() {
+            searchPins = [];
+            searchInfoPanelBody.innerHTML = "";
+            searchPopup.close();
+
+            if (this.readyState === 4 && this.status === 400) {
+                map.addPins(searchPins, {
+                    name: searchLayerName,
+                    overwrite: true
+                });
+            }
+
+            if (this.readyState === 4 && this.status === 500) {
+                window.alert("Problem with search service.");
+            }
+
+            if (this.readyState === 4 && this.status === 200) {
+                var response = JSON.parse(this.responseText);
+
+                var geographyResults = response.results.filter(function (result) { return result.type === "Geography" }) || [];
+                var addressResults = response.results.filter(function (result) { return result.type === "Point Address" }) || [];
+                var poiResults = response.results.filter(function (result) { return result.type === "POI" }) || [];
+
+                if (geographyResults.length !== 0) {
+                    geographyResults.sort(function (a, b) { return b.score - a.score });
+                    var geographyBestResult = geographyResults[0];
+
+                    searchPins = geographyResults.map(function (geographyResult) {
+                        var geographyPosition = [geographyResult.position.lon, geographyResult.position.lat];
+                        return new atlas.data.Feature(new atlas.data.Point(geographyPosition), {
+                            address: geographyResult.address.freeformAddress
+                        });
+                    });
+
+                    if (shouldChangeCamera) {
+                        map.setCameraBounds({
+                            bounds: [
+                                geographyBestResult.viewport.topLeftPoint.lon,
+                                geographyBestResult.viewport.btmRightPoint.lat,
+                                geographyBestResult.viewport.btmRightPoint.lon,
+                                geographyBestResult.viewport.btmRightPoint.lat
+                            ]
+                        });
+
+                        map.setCamera({
+                            center: [
+                                geographyBestResult.position.lon,
+                                geographyBestResult.position.lat
+                            ],
+                            zoom: map.getCamera().zoom - 1
+                        });
+                    }
+                } else if (addressResults.length !== 0) {
+                    addressResults.sort(function (a, b) { return b.score - a.score });
+                    var addressBestResult = addressResults[0];
+
+                    var addressPosition = [
+                        addressBestResult.position.lon,
+                        addressBestResult.position.lat
+                    ];
+
+                    if (shouldChangeCamera) {
+                        map.setCamera({
+                            center: addressPosition,
+                            zoom: 18
+                        });
+                    }
+
+                    searchPins = [
+                        new atlas.data.Feature(new atlas.data.Point(addressPosition), {
+                            address: addressBestResult.address.freeformAddress
+                        })
+                    ];
+                } else if (poiResults.length !== 0) {
+                    searchPins = poiResults.map(function (poiResult) {
+                        var poiPosition = [poiResult.position.lon, poiResult.position.lat];
+                        return new atlas.data.Feature(new atlas.data.Point(poiPosition), {
+                            name: poiResult.poi.name,
+                            phone: poiResult.poi.phone,
+                            url: poiResult.poi.url,
+                            address: poiResult.address.freeformAddress
+                        });
+                    });
+
+                    if (shouldChangeCamera) {
+                        map.setCameraBounds({
+                            bounds: boundingBoxOfPositions(poiResults.map(function (poi) {
+                                return [poi.position.lon, poi.position.lat]
+                            }))
+                        });
+
+                        map.setCamera({
+                            zoom: Math.min(map.getCamera().zoom - 1, 18)
+                        });
+                    }
+                } else {
+                    var noResultListItemElement = document.createElement("li");
+
+                    var noResultsHeaderElement = document.createElement("h4");
+                    noResultsHeaderElement.innerText = "No Results Returned";
+
+                    var noResultsDetailsElement = document.createElement("p");
+                    noResultsDetailsElement.innerText = "Check spelling or add more details - city, country, or zip code";
+
+                    noResultListItemElement.appendChild(noResultsHeaderElement);
+                    noResultListItemElement.appendChild(noResultsDetailsElement);
+
+                    searchInfoPanelBody.appendChild(noResultListItemElement);
+                }
+
+                for (i = 0; i < searchPins.length; i++) {
+                    var searchPin = searchPins[i];
+
+                    var resultListItemElement = document.createElement("li");
+                    resultListItemElement.dataset.lon = searchPin.geometry.coordinates[0];
+                    resultListItemElement.dataset.lat = searchPin.geometry.coordinates[1];
+                    resultListItemElement.dataset.search = (searchPin.properties.name) ? searchPin.properties.name
+                        + ", " + searchPin.properties.address : searchPin.properties.address;
+
+                    if (searchPin.properties.name) {
+                        resultListItemElement.dataset.name = searchPin.properties.name;
+                    }
+
+                    var resultListItemHeadingElement = document.createElement("div");
+                    resultListItemHeadingElement.classList.add("title", "font-segoeui-b");
+                    resultListItemHeadingElement.innerText = searchPin.properties.name || searchPin.properties.address;
+                    resultListItemElement.appendChild(resultListItemHeadingElement);
+
+                    if (searchPin.properties.address) {
+                        resultListItemElement.dataset.address = searchPin.properties.address;
+
+                        var resultListItemAddressElement = document.createElement("div");
+                        resultListItemAddressElement.classList.add("info", "font-segoeui");
+                        resultListItemAddressElement.innerText = searchPin.properties.address;
+                        resultListItemElement.appendChild(resultListItemAddressElement);
+                    }
+
+                    if (searchPin.properties.phone) {
+                        resultListItemElement.dataset.phone = searchPin.properties.phone;
+
+                        var resultListItemPhoneElement = document.createElement("div");
+                        resultListItemPhoneElement.classList.add("info", "font-segoeui");
+                        resultListItemPhoneElement.innerText = "phone: " + searchPin.properties.phone;
+                        resultListItemElement.appendChild(resultListItemPhoneElement);
+                    }
+
+                    if (searchPin.properties.url) {
+                        resultListItemElement.dataset.url = searchPin.properties.url;
+
+                        var resultListItemUrlElement = document.createElement("div");
+                        resultListItemUrlElement.classList.add("info", "font-segoeui");
+                        var linkElement = document.createElement("a");
+                        linkElement.href = "http://" + searchPin.properties.url;
+                        linkElement.innerText = searchPin.properties.url;
+                        resultListItemUrlElement.appendChild(linkElement);
+                        resultListItemElement.appendChild(resultListItemUrlElement);
+                    }
+
+                    resultListItemElement.addEventListener("mouseover", function (event) {
+                        searchPopup.setPopupOptions({
+                            position: [this.dataset.lon, this.dataset.lat],
+                            content: buildPoiPopupContent({
+                                name: this.dataset.name,
+                                address: this.dataset.address,
+                                phone: this.dataset.phone,
+                                url: this.dataset.url
+                            })
+                        });
+
+                        searchPopup.open(map);
+                    });
+
+                    resultListItemElement.addEventListener("click", function (event) {
+                        shouldChangeCamera = true;
+                        document.getElementById("search-input").value = this.dataset.search;
+                        search(searchResultsHandler);
+                    });
+
+                    searchInfoPanelBody.appendChild(resultListItemElement);
+                }
+
+                map.addPins(searchPins, {
+                    name: searchLayerName,
+                    overwrite: true
+                });
+            }
+        };
+
+        var search = function (responseHandler) {
+            var searchInputValue = document.getElementById("search-input").value;
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = responseHandler;
+
+            var url = "https://atlas.microsoft.com/search/fuzzy/json?";
+            url += "&api-version=1.0";
+            url += "&query=" + searchInputValue;
+            url += "&subscription-key=" + subscriptionKey;
+            url += "&lat=" + map.getCamera().center[1];
+            url += "&lon=" + map.getCamera().center[0];
+
+            xhttp.open("GET", url, true);
+            xhttp.send();
+        }
+
+        var searchInput = document.getElementById("search-input");
+        searchInput.addEventListener("keyup", function (e) {
+            shouldChangeCamera = (e.keyCode === 13) ? true : false;
+            search(searchResultsHandler);
+        });
+
+        // Logic For Zoom In Button
+        var plusZoomElement = document.createElement("div");
+        plusZoomElement.classList.add("zoom", "font-segoeui-b");
+        plusZoomElement.id = "zoom-plus";
+        plusZoomElement.innerText = "+";
+        document.body.appendChild(plusZoomElement);
+        plusZoomElement.addEventListener("click", function (event) {
+            var currZoom = map.getCamera().zoom;
+            map.setCamera({
+                zoom: currZoom + 1
+            });
+        });
+
+        // Logic For Zoom Out Button
+        var minusZoomElement = document.createElement("div");
+        minusZoomElement.classList.add("zoom", "font-segoeui-b");
+        minusZoomElement.id = "zoom-minus";
+        minusZoomElement.innerText = "-";
+        document.body.appendChild(minusZoomElement);
+        minusZoomElement.addEventListener("click", function (event) {
+            var currZoom = map.getCamera().zoom;
+            map.setCamera({
+                zoom: currZoom - 1
+            });
+        });
+
+    </script>
+</body>
+
+</html>
